@@ -9826,7 +9826,7 @@ ftco-heading-2 second{
 }
 
 .ftco-navbar-light.scrolled .navbar-brand .logotipo{
-    content: url("img/logo/logo_degrade.png");
+    content: url("../img/logo/logo_degrade.png");
 
 }
 
@@ -10670,7 +10670,7 @@ ftco-heading-2 second{
 }
 
 .ftco-navbar-light.scrolled .navbar-brand .logotipo{
-    content: url("img/logo/logo_degrade.png");
+    content: url("../img/logo/logo_degrade.png");
 
 }
 
