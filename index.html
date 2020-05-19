@@ -22,12 +22,20 @@
         <!-- Animate -->
         <link rel="stylesheet" href="vendor/animate/animate.css">
 
+        <!-- Owl Carrousel -->
+        <link rel="stylesheet" href="vendor/owl.carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="vendor/owl.carousel/owl.theme.default.min.css">
+
     <!-- CSS Principal -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="base.css">
+
 
     <!-- Fontes Externa -->
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,700,800" rel="stylesheet">
-    <link rel="stylesheet" href="vendor/ionicons/ionicons.min.css">
+    <link rel="stylesheet" href="vendor/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="vendor/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="vendor/icomoon/icomoon.css">
+    <link rel="stylesheet" href="vendor/open-iconic/open-iconic-bootstrap.min.css">
 
 
 </head>
@@ -35,20 +43,27 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="img/logo_temp_semfundo.png" style="width: 38%"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="oi oi-menu"></span> Menu
-            </button>
 
-            <div class="collapse navbar-collapse" id="ftco-nav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"><a href="index.html" class="nav-link">Início</a></li>
-                    <li class="nav-item"><a href="pages/quem-somos.html" class="nav-link">Sobre Nós</a></li>
-                    <li class="nav-item"><a href="pages/servicos.html" class="nav-link">Serviços</a></li>
-                    <li class="nav-item"><a href="pages/portfolio.html" class="nav-link">Portfólio</a></li>
-                    <li class="nav-item"><a href="pages/contato.html" class="nav-link">Contato</a></li>
-                </ul>
-            </div>
+                <div class="col-lg-6 col-md-4 col-sm-2">
+                    <a class="navbar-brand" href="index.html"><img src="img/logo/logo-branco.png" style="width: 11%" class="logotipo"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="oi oi-menu"></span> Menu
+                    </button>
+                </div>
+
+
+
+                    <div class="collapse navbar-collapse" id="ftco-nav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active"><a href="index.html" class="nav-link">Início</a></li>
+                            <li class="nav-item"><a href="pages/quem-somos.html" class="nav-link">Sobre Nós</a></li>
+                            <li class="nav-item"><a href="pages/servicos.html" class="nav-link">Serviços</a></li>
+                            <li class="nav-item"><a href="pages/portfolio.html" class="nav-link">Portfólio</a></li>
+                            <li class="nav-item"><a href="pages/contato.html" class="nav-link">Contato</a></li>
+                        </ul>
+                    </div>
+
+
         </div>
     </nav>
     <!-- END nav -->
@@ -65,7 +80,7 @@
                             </strong>
                         </h1>
                         <p>Somos uma Empresa Júnior que promove soluções de impacto na área de Lazer, Turismo e Eventos da Universidade de São Paulo.</p>
-                        <p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-primary btn-outline-white px-4 py-3 popup-vimeo"><ion-icon name="play-outline"></ion-icon> Nos Conheça!</a></p>
+                        <p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-primary btn-outline-white px-4 py-3 popup-youtube"><span class="ion-ios-play mr-2"></span> Nos Conheça!</a></p>
                     </div>
                 </div>
             </div>
@@ -73,6 +88,233 @@
     </section>
     <!-- END slider -->
 
+    <section class="ftco-section-featured ftco-animate">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="carousel owl-carousel">
+                        <div class="item">
+                            <a href="">
+                                <img src="img/imagem_exemplo1.png" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="">
+                                <img src="img/imagem_exemplo2.png" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="">
+                                <img src="img/imagem_exemplo3.png" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END carousel -->
+
+    <section class="ftco-section" style="margin-bottom: 7em;">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-5">
+                <div class="col-md-7 text-center heading-section ftco-animate">
+                    <span class="subheading">NOSSOS SERVIÇOS</span>
+                    <h2>Oferecemos serviços com qualidade e excelência USP</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-6 d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services d-block text-center">
+                        <div class="d-flex justify-content-center"><div class="icon color-1 d-flex justify-content-center mb-3"><span class="align-self-center icon-graduation-cap"></span></div></div>
+                        <div class="media-body p-2">
+                            <h3 class="heading">Organização De Eventos</h3>
+                            <p>Planejamento e organização de eventos: Corporativos, Promocionais, Científico/Acadeêmicos e Colação de Grau.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services d-block text-center">
+                        <div class="d-flex justify-content-center"><div class="icon color-2 d-flex justify-content-center mb-3"><span class="align-self-center icon-coffee"></span></div></div>
+                        <div class="media-body p-2">
+                            <h3 class="heading">Suporte Para Eventos</h3>
+                            <p>Damos suporte também para seu evento, por meio de: Coffee Break, Recepção, Cerimonial, Divulgação, Secretaria e Logística.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- END serviçpos -->
+
+    <section class="ftco-section-parallax ftco-degree-bg" style="margin-bottom: 7em;">
+        <div class="parallax-img d-flex align-items-center">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-10 text-center heading-section heading-section-white ftco-animate" >
+                        <h2 class="h1 font-weight-bold" style="font-size: 35px">Somos uma associação civil sem fins lucrativos, formada por alunos de graduação do curso de Lazer e Turismo da Escola de Artes, Ciências e Humanidades da Universidade de São Paulo</h2>
+                        <p><a href="pages/quem-somos.html" class="btn btn-primary btn-outline-white mt-3 py-3 px-4">+ Sobre Nós</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end sobre nos -->
+
+
+    <section class="ftco-section" style="margin-bottom: 7em;">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-5">
+                <div class="col-md-7 text-center heading-section ftco-animate">
+                    <span class="subheading">NOSSOS DIFERENCIAIS</span>
+                    <h2>Possuímos preço abaixo da média do mercado com excelência</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services d-block text-center">
+                        <div class="d-flex justify-content-center"><div class="icon color-4 d-flex justify-content-center mb-3"><span class="align-self-center icon-question"></span></div></div>
+                        <div class="media-body p-2">
+                            <h3 class="heading">Primeiro Diferencial</h3>
+                            <p>Aqui ficará o texto do diferencial que pode ser bem interessante e muito bacana e muito legal.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services d-block text-center">
+                        <div class="d-flex justify-content-center"><div class="icon color-1 d-flex justify-content-center mb-3"><span class="align-self-center icon-question"></span></div></div>
+                        <div class="media-body p-2">
+                            <h3 class="heading">Segundo Diferencial</h3>
+                            <p>Aqui ficará o texto do diferencial que pode ser bem interessante e muito bacana e muito legal.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services d-block text-center">
+                        <div class="d-flex justify-content-center"><div class="icon color-2 d-flex justify-content-center mb-3"><span class="align-self-center icon-question"></span></div></div>
+                        <div class="media-body p-2">
+                            <h3 class="heading">Terceiro Diferencial</h3>
+                            <p>Aqui ficará o texto do diferencial que pode ser bem interessante e muito bacana e muito legal.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services d-block text-center">
+                        <div class="d-flex justify-content-center"><div class="icon color-6 d-flex justify-content-center mb-3"><span class="align-self-center icon-question"></span></div></div>
+                        <div class="media-body p-2">
+                            <h3 class="heading">Quarto Diferencial</h3>
+                            <p>Aqui ficará o texto do diferencial que pode ser bem interessante e muito bacana e muito legal.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- END diferenciais -->
+
+    <section class="ftco-section" >
+        <div class="container-fluid">
+            <div class="row no-gutters justify-content-center mb-5 pb-5">
+                <div class="col-md-7 text-center heading-section ftco-animate">
+                    <span class="subheading">NOSSO PROCESSO</span>
+                    <h2>As 3 Etapas de Serviço</h2>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="block-3 d-md-flex ftco-animate">
+                    <a href="" class="image" style="background-image: url('img/etapa1.png'); "></a>
+                    <div class="text">
+                        <h4 class="subheading">PRIMEIRA ETAPA</h4>
+                        <h2 class="heading"><a href="">Diagnóstico do Projeto</a></h2>
+                        <p>Inicialmente, marcamos uma reunião para entender seu empreendimento, seu projeto, suas vontades e desejos. Após isso, fazemos algo muito legal e, novamente sem excitação, algo muito interessante e pertinente à situação.</p>
+                    </div>
+                </div>
+                <div class="block-3 d-md-flex ftco-animate">
+                    <a href="" class="image order-2" style="background-image: url('img/etapa2.png'); "></a>
+                    <div class="text order-1">
+                        <h4 class="subheading">SEGUNDA ETAPA</h4>
+                        <h2 class="heading"><a href="">Proposta Personalizada</a></h2>
+                        <p>Inicialmente, marcamos uma reunião para entender seu empreendimento, seu projeto, suas vontades e desejos. Após isso, fazemos algo muito legal e, novamente sem excitação, algo muito interessante e pertinente à situação.</p>
+                    </div>
+                </div>
+                <div class="block-3 d-md-flex ftco-animate">
+                    <a href="" class="image" style="background-image: url('img/etapa3.png'); "></a>
+                    <div class="text">
+                        <h4 class="subheading">TERCEIRA ETAPA</h4>
+                        <h2 class="heading"><a href="">Solução da Problemática</a></h2>
+                        <p>Inicialmente, marcamos uma reunião para entender seu empreendimento, seu projeto, suas vontades e desejos. Após isso, fazemos algo muito legal e, novamente sem excitação, algo muito interessante e pertinente à situação.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END 3 etapas -->
+
+    <section class="ftco-section-parallax"  style="background-color: white !important; ">
+        <div class="parallax-img-2 d-flex align-items-center" style="padding: 8em 0;">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-10 text-center heading-section heading-section-white ftco-animate" >
+                        <h2 class="h1 font-weight-bold" style="font-size: 35px; color: black">Se interessou pelo nosso trabalho?<br>Entre em contato conosco e faça seu orçamento!</h2>
+                        <p><a href="pages/contato.html" class="btn btn-dark btn-outline-dark mt-3 py-3 px-4">Entrar em contato</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end sobre nos -->
+
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-4">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">LZT Júnior</h2>
+                        <p>A LZT Júnior é uma associação civil sem fins lucrativos, formada por alunos de graduação do curso de Lazer e Turismo da Escola de Artes, Ciências e Humanidades da Universidade de São Paulo.</p>
+                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
+                            <li class="ftco-animate"><a href="https://www.linkedin.com/company/lztjúnior/"><span class="icon-linkedin"></span></a></li>
+                            <li class="ftco-animate"><a href="https://www.facebook.com/lztjunior/"><span class="icon-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="https://www.facebook.com/lztjunior/"><span class="icon-instagram"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="ftco-footer-widget mb-4" >
+                        <h2 class="ftco-heading-2 second">Navegação</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="index.html" class="py-2 d-block">Início</a></li>
+                            <li><a href="pages/quem-somos.html" class="py-2 d-flex">Sobre Nós</a></li>
+                            <li><a href="pages/servicos.html" class="py-2 d-flex">Serviços</a></li>
+                            <li><a href="pages/portfolio.html" class="py-2 d-flex">Portfólio</a></li>
+                            <li><a href="pages/contato.html" class="py-2 d-flex">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class=" col-lg-4">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Informações de Contato</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="py-2 d-block">Rua Arlindo Béttio, 1000 - Ermelino Matarazzo São Paulo</a></li>
+                            <li><a href="#" class="py-2 d-block">11 123456789</a></li>
+                            <li><a href="#" class="py-2 d-block">email@email.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+
+                    <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados | Feito por <a href="http://sintesejr.com.br" target="_blank">Síntese Jr.</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
     <!-- JavaScript Externo -->

@@ -2,20 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baa05a1d-bd8b-46ca-afcc-02c4bc411fc7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/contato.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/portfolio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/quem-somos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/servicos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/animate/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/bootstrap-datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/bootstrap-datepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/ionicons/ionicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/jquery/jquery.timepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/jquery/jquery.waypoints.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/magnific-popup/jquery.magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/icomoon/icomoon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/ionicons/css/_ionicons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/ionicons/css/ionicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/ionicons/fonts/ionicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/ionicons/fonts/ionicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/ionicons/fonts/ionicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/ionicons/fonts/ionicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/ionicons/fonts/ionicons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/open-iconic/open-iconic-bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contato.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contato.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/quem-somos.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quem-somos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/servicos.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/servicos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ionicons/ionicons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/owl.carousel/owl.carousel.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/owl.carousel/owl.carousel.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/owl.carousel/owl.theme.default.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/owl.carousel/owl.theme.default.min.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +33,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -45,23 +52,23 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vendor/open-iconic" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\site_lztjr\vendor\open-iconic" />
+      <recent name="C:\xampp\htdocs\site_lztjr\vendor\icomoon" />
+      <recent name="C:\xampp\htdocs\site_lztjr\vendor" />
+      <recent name="C:\xampp\htdocs\site_lztjr\vendor\owl.carousel" />
+      <recent name="C:\xampp\htdocs\site_lztjr\vendor\ionicons" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\site_lztjr\pages" />
       <recent name="C:\xampp\htdocs\site_lztjr" />
+      <recent name="C:\xampp\htdocs\site_lztjr\pages" />
       <recent name="C:\xampp\htdocs\site_lztjr\assets\vendor\bootstrap" />
       <recent name="C:\xampp\htdocs\site_lztjr\assets\vendor\magnific-popup" />
       <recent name="C:\xampp\htdocs\site_lztjr\assets\vendor" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\site_lztjr\pages" />
-      <recent name="C:\xampp\htdocs\site_lztjr\vendor\ionicons" />
-      <recent name="C:\xampp\htdocs\site_lztjr\vendor\animate" />
-      <recent name="C:\xampp\htdocs\site_lztjr\assets\vendor\jquery" />
-      <recent name="C:\xampp\htdocs\site_lztjr\assets\vendor\bootstrap" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -74,7 +81,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589747446299</updated>
-      <workItem from="1589747448008" duration="8441000" />
+      <workItem from="1589747448008" duration="9253000" />
+      <workItem from="1589828624935" duration="5213000" />
     </task>
     <servers />
   </component>
@@ -82,9 +90,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1589762403126">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1589836255421">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589762403126" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589836255421" />
   </component>
 </project>
