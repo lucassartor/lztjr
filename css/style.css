@@ -5,8 +5,44 @@
 
 
 /********       Serviços         ********/
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v50/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
 
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
 
+#primeiro-servicos {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 20px;
+background:linear-gradient(45deg, #00AA7D 0%, #00768B 100%);
+}
+
+#segundo-servicos {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 20px;
+background:linear-gradient(45deg, #00768B 0%, #00AA7D 100%);
+}
 /********     Fim Serviços       ********/
 
 
