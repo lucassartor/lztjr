@@ -1,5 +1,27 @@
 /********       Sobre Nós         ********/
 
+.box-with-humber {
+  position: relative; }
+  .box-with-humber .words-behind {
+    font-size: 5.2rem;
+    position: absolute;
+    z-index: -1;
+    top: -2.5rem;
+    left: -1rem;
+    font-weight: 600;
+    color: #f5f8f8;
+}
+
+.site-section-mvv {
+  padding: 2.5em 0;
+  margin-top: 40px;
+}
+
+.text-primary-mvv {
+  color:#78d5ef!important;
+  margin-left: 8px;
+}
+
 
 /********     Fim Sobre Nós       ********/
 
