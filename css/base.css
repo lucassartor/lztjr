@@ -9112,7 +9112,23 @@ ftco-heading-2 second{
 .home-slider .owl-dots .owl-dot.active span {
     background: white; }
 
-
+.ftco-degree-bg {
+    position: relative; }
+.ftco-degree-bg:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+    overflow: visible;
+    width: 100%;
+    height: 120px;
+    z-index: 0;
+    -webkit-transform: skewY(4deg);
+    -moz-transform: skewY(4deg);
+    -ms-transform: skewY(4deg);
+    -o-transform: skewY(4deg);
+    transform: skewY(4deg);
+    background-color: #fff; }
 
 /*Barra de Navegação */
 .collapse:not(.show) {
@@ -10849,3 +10865,21 @@ ftco-heading-2 second{
 .home-slider .owl-dots .owl-dot.active span {
     background: white; }
 
+.ftco-degree-bg {
+    position: relative; }
+.ftco-degree-bg:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -65px;
+    overflow: visible;
+    width: 100%;
+    height: 135px;
+    z-index: 0;
+    -webkit-transform: skewY(4deg);
+    -moz-transform: skewY(4deg);
+    -ms-transform: skewY(4deg);
+    -o-transform: skewY(4deg);
+    transform: skewY(4deg);
+    background-color: white;
+    } 
