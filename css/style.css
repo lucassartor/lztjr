@@ -1,5 +1,168 @@
 /********       Sobre Nós         ********/
 
+.box-with-humber {
+  position: relative; }
+  .box-with-humber .words-behind {
+    font-size: 5.2rem;
+    position: absolute;
+    z-index: -1;
+    top: -2.5rem;
+    left: -1rem;
+    font-weight: 600;
+    color: #f5f8f8;
+}
+
+.site-section-mvv {
+  padding: 2.5em 0;
+  margin-top: 40px;
+}
+
+.text-primary-mvv {
+  color:#78d5ef!important;
+  margin-left: 8px;
+}
+
+.bottom-mar
+{
+    margin-bottom: 50px;
+}
+
+.ftco-section {
+  padding: 6em 0;
+  position: relative; }
+  @media (max-width: 767.98px) {
+    .ftco-section {
+      padding: 6em 0; }
+  }
+
+  .ftco-no-pb {
+  padding-bottom: 0; }
+
+  .testimony-section {
+    position: relative;
+    z-index: 0; }
+    .testimony-section .img-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      content: '';
+      height: 400px; }
+
+    .testimony-section .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      content: '';
+      height: 400px;
+      background: linear-gradient(45deg, #00AA7D 0%, #00768B 100%);
+      opacity: .8; }
+    .testimony-section .owl-carousel {
+      margin: 0; }
+    .testimony-section .owl-carousel .owl-stage-outer {
+      padding: 1.5em 0 2em 0;
+      position: relative; }
+    .testimony-section .owl-nav {
+      position: absolute;
+      top: 100%;
+      width: 100%; }
+      .testimony-section .owl-nav .owl-prev,
+      .testimony-section .owl-nav .owl-next {
+        position: absolute;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        margin-top: -10px;
+        outline: none !important;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        opacity: 0; }
+        .testimony-section .owl-nav .owl-prev span:before,
+        .testimony-section .owl-nav .owl-next span:before {
+          font-size: 30px;
+          color: rgba(0, 0, 0, 0.5);
+          -moz-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          -webkit-transition: all 0.3s ease;
+          -ms-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+        .testimony-section .owl-nav .owl-prev:hover span:before, .testimony-section .owl-nav .owl-prev:focus span:before,
+        .testimony-section .owl-nav .owl-next:hover span:before,
+        .testimony-section .owl-nav .owl-next:focus span:before {
+          color: #009084; }
+      .testimony-section .owl-nav .owl-prev {
+        left: 50%;
+        margin-left: -80px; }
+      .testimony-section .owl-nav .owl-next {
+        right: 50%;
+        margin-right: -80px; }
+    .testimony-section:hover .owl-nav .owl-prev,
+    .testimony-section:hover .owl-nav .owl-next {
+      opacity: 1; }
+    .testimony-section:hover .owl-nav .owl-prev {
+      left: 50%;
+      margin-left: -80px; }
+    .testimony-section:hover .owl-nav .owl-next {
+      right: 50%;
+      margin-right: -80px; }
+    .testimony-section .owl-dots {
+      text-align: center; }
+      .testimony-section .owl-dots .owl-dot {
+        width: 10px;
+        height: 10px;
+        margin: 5px;
+        border-radius: 50%;
+        background: rgba(0, 0, 0, 0.1); }
+        .testimony-section .owl-dots .owl-dot.active {
+          background: #009084; }
+  
+  .testimony-wrap {
+    display: block;
+    position: relative;
+    background: white;
+    padding: 0 20px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 30px 33px -41px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 0px 30px 33px -41px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 30px 33px -41px rgba(0, 0, 0, 0.24); }
+    .testimony-wrap .icon {
+      position: absolute;
+      top: -20px;
+      left: 20px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #fff; }
+      .testimony-wrap .icon span {
+        color: #fff; }
+    .testimony-wrap .user-img {
+      width: 80px;
+      height: 80px;
+      position: relative;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%; }
+    .testimony-wrap .name {
+      font-weight: 500;
+      font-size: 20px;
+      margin-bottom: 0;
+      color: #000000; }
+    .testimony-wrap .position {
+      font-size: 16px;
+      color: #4d4d4d; }
+
+      .testimony-section .owl-carousel .owl-stage-outer:before {
+        display: none;}
+    .testimony-section .owl-carousel .owl-stage-outer:after {
+        display: none; }
+
+
+
 
 /********     Fim Sobre Nós       ********/
 
