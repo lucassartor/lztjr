@@ -161,8 +161,16 @@
     .testimony-section .owl-carousel .owl-stage-outer:after {
         display: none; }
 
+    .mej{
+      margin-top: 120px
+    }
 
-
+    .mej img{
+      max-width:300px;
+      max-height:300px;
+      width: auto;
+      height: auto;
+    }    
 
 /********     Fim Sobre Nós       ********/
 
