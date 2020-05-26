@@ -2,14 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baa05a1d-bd8b-46ca-afcc-02c4bc411fc7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/site_lztjr.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/site_lztjr.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Tipografia/LOGO - ReadMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/img/Tipografia/LOGO - ReadMe.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Bandeira.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/contato.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contato.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/portfolio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/quem-somos.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quem-somos.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/servicos.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/servicos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/aos/aos.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/aos/aos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/aos/aos.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/aos/aos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jquery/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jquery/jquery-3.3.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jquery/jquery-migrate-3.0.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jquery/jquery-migrate-3.0.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jquery/jquery-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jquery/jquery-ui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jquery/jquery.countdown.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jquery/jquery.countdown.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jquery/jquery.stellar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jquery/jquery.stellar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jquery/jquery.sticky.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jquery/jquery.sticky.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/owl.carousel/owl.carousel2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/owl.carousel/owl.carousel2.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +89,7 @@
       <workItem from="1589747448008" duration="9253000" />
       <workItem from="1589828624935" duration="5213000" />
       <workItem from="1589901801540" duration="1637000" />
+      <workItem from="1590502761097" duration="3565000" />
     </task>
     <servers />
   </component>
