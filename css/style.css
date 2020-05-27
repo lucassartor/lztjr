@@ -245,6 +245,10 @@ background:linear-gradient(45deg, #00AA7D 0%, #00768B 100%);
   display: none;
 }
 
+#contact .form-control{
+  width: 200%;
+}
+
 .form-group small {
 color: #e74c3c;
 position: relative;
