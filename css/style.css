@@ -215,23 +215,23 @@ background:linear-gradient(45deg, #00AA7D 0%, #00768B 100%);
 /********       Contato          ********/
 
 .whatsapp-link {
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 40px;
-  right: 40px;
-  background-color: #25d366;
-  color: #fff;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 30px;
-  box-shadow: 1px 1px 2px #888;
-  z-index: 1000;
-}
-
-.fa-whatsapp {
-  margin-top: 16px;
-}
+			position: fixed;
+			width: 60px;
+			height: 60px;
+			bottom: 20px;
+			right: 10px;
+			background-color: #25d366;
+			color: #fff;
+			border-radius: 50px;
+			text-align: center;
+			font-size: 30px;
+			box-shadow: 1px 1px 2px #888;
+			z-index: 1000;
+		}
+ 
+		.fa-whatsapp {
+			margin-top: 16px;
+		}
 
 .message-sent{
   position: relative;
