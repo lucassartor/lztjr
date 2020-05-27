@@ -253,6 +253,12 @@ background:linear-gradient(45deg, #00AA7D 0%, #00768B 100%);
   margin-top: -15px;
 }
 
+.redes img{
+  max-width:100%;
+  max-height:100%;
+  width: auto;
+  height: auto;
+}
 
 .form-group small {
 color: #e74c3c;
