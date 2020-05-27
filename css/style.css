@@ -1,5 +1,12 @@
 /********       Sobre Nós         ********/
 
+.text-primary{
+  background:linear-gradient(45deg, #00AA7D 0%, #00768B 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+
+}
+
 .box-with-humber {
   position: relative; }
   .box-with-humber .words-behind {
@@ -27,11 +34,13 @@
     margin-bottom: 50px;
 }
 
-.ftco-section {
+
+.opinions {
   padding: 6em 0;
   position: relative; }
+
   @media (max-width: 767.98px) {
-    .ftco-section {
+    .opinions {
       padding: 6em 0; }
   }
 
@@ -176,29 +185,6 @@
 
 
 /********       Serviços         ********/
-@font-face {
-  font-family: 'Material Icons';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/materialicons/v50/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
-}
-
-.material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 48px;
-  line-height: 1;
-  letter-spacing: normal;
-  text-transform: none;
-  display: inline-block;
-  white-space: nowrap;
-  word-wrap: normal;
-  direction: ltr;
-  -webkit-font-feature-settings: 'liga';
-  -webkit-font-smoothing: antialiased;
-}
-
 #primeiro-servicos {
 	width: 100%;
 	height: 100%;
@@ -212,8 +198,10 @@ background:linear-gradient(45deg, #00AA7D 0%, #00768B 100%);
 	height: 100%;
 	margin: 0px;
 	padding: 20px;
-background:linear-gradient(45deg, #00768B 0%, #00AA7D 100%);
+background:linear-gradient(45deg, #00AA7D 0%, #00768B 100%);
+
 }
+
 /********     Fim Serviços       ********/
 
 
