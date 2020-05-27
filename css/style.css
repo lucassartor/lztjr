@@ -226,6 +226,45 @@ background:linear-gradient(45deg, #00768B 0%, #00AA7D 100%);
 
 /********       Contato          ********/
 
+.message-sent{
+  position: relative;
+  margin-bottom: 5px;
+  display: inline-block;
+  margin-top: -20px;
+  color: #2ecc71;
+  font-weight: bold;
+}
+.message-notSent{
+  display: none;
+}
+
+.form-group small {
+color: #e74c3c;
+position: relative;
+bottom: 0;
+left: 0;
+visibility: hidden;
+}
+
+.form-group.success input {
+	border-color: #2ecc71;
+}
+
+.form-group.error input {
+	border-color: #e74c3c;
+}
+
+.form-group.error small {
+	visibility: visible;
+}
+
+.form-group.error textarea {
+	border-color: #e74c3c;
+}
+.form-group .btn-primary{
+  background: linear-gradient(45deg, #00AA7D 0%, #00768B 100%);
+  border: 2px solid #00AA7D;
+}
 
 
 /********      Fim Contato       ********/
