@@ -170,16 +170,22 @@
     .testimony-section .owl-carousel .owl-stage-outer:after {
         display: none; }
 
-    .mej{
-      margin-top: 120px
+    .mej-row{
+      margin: 10%;
     }
 
-    .mej img{
-      max-width:300px;
-      max-height:300px;
+    .mej-row img{
+      max-width: 100%;
+      max-height: 100%;
       width: auto;
       height: auto;
-    }    
+    }  
+
+    .mej-row .services .icon{
+      width: 190px;
+      height: 190px;
+    }
+    
 
 /********     Fim Sobre Nós       ********/
 
