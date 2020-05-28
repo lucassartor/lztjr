@@ -9523,6 +9523,20 @@ ftco-heading-2 second{
     .navbar-expand-sm .navbar-toggler {
         display: none; } }
 
+@media (max-width: 768px) {
+    .navbar-brand{
+        width: 85% !important;
+    }
+    
+}
+
+@media (max-width: 425px) {
+
+    .navbar-brand{
+        width: 140% !important;
+    }
+}
+
 @media (max-width: 767.98px) {
     .navbar-expand-md > .container,
     .navbar-expand-md > .container-fluid {
@@ -10589,9 +10603,12 @@ ftco-heading-2 second{
     top: 30px; }
 @media (max-width: 991.98px) {
     .ftco-navbar-light {
-        background: #404044 !important;
-        top: 0;
-        position: relative; } }
+        background: transparent !important;
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 3;
+        top: 30px; } }
 .ftco-navbar-light .navbar-brand {
     color: #fff; }
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
