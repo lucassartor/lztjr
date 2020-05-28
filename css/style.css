@@ -220,6 +220,8 @@ background:linear-gradient(45deg, #00AA7D 0%, #00768B 100%);
 
 /********       Contato          ********/
 
+.hide { position:absolute; top:-1px; left:-1px; width:1px; height:1px; }
+
 .whatsapp-link {
 			position: fixed;
 			width: 60px;
@@ -289,6 +291,11 @@ visibility: hidden;
 .form-group.error textarea {
 	border-color: #e74c3c;
 }
+
+.form-group.success textarea {
+	border-color: #2ecc71;
+}
+
 .form-group .btn-primary{
   background: linear-gradient(45deg, #00AA7D 0%, #00768B 100%);
   border: 2px solid #00AA7D;
