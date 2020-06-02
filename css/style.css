@@ -325,7 +325,7 @@ visibility: hidden;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  background: #00768B; }
+  background: linear-gradient(90deg, #00AA7D 0%, #00768B 100%); }
   .team-member .social li {
     list-style: none; }
     .team-member .social li a {
