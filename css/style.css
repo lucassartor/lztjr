@@ -170,58 +170,6 @@
     .testimony-section .owl-carousel .owl-stage-outer:after {
         display: none; }
 
-        .port-wrap {
-          display: block;
-          position: relative;
-          background: white;
-          padding: 0 20px;
-          border-radius: 4px;
-          -webkit-box-shadow: 0px 30px 33px -41px rgba(0, 0, 0, 0.24);
-          -moz-box-shadow: 0px 30px 33px -41px rgba(0, 0, 0, 0.24);
-          box-shadow: 0px 30px 33px -41px rgba(0, 0, 0, 0.24); }
-          .port-wrap .icon {
-            position: absolute;
-            top: -20px;
-            left: 20px;
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background: #fff; }
-            .port-wrap .icon span {
-              color: #fff; }
-          .port-wrap .user-img {
-            width: 80px;
-            height: 80px;
-            position: relative;
-            -webkit-border-radius: 50%;
-            -moz-border-radius: 50%;
-            -ms-border-radius: 50%;
-            border-radius: 50%; }
-          .port-wrap .name {
-            font-weight: 500;
-            font-size: 20px;
-            margin-bottom: 0;
-            color: #000000; }
-          .port-wrap .position {
-            font-size: 16px;
-            color: #4d4d4d; }
-          .port-wrap .h2{
-            color: #25d366;
-            font-size: x-large;
-          }
-          .port-wrap .name{
-            font-size: large;
-          }
-          .port-wrap .mt-4{
-            color: rgba(0, 0, 0, 0.753);
-            margin-bottom: -3%;
-          }
-            
-            .port-section .owl-carousel .owl-stage-outer:before {
-              display: none;}
-          .port-section .owl-carousel .owl-stage-outer:after {
-              display: none; }
-
     .mej-row{
       margin: 10%;
     }
@@ -265,7 +213,54 @@ background:linear-gradient(45deg, #00AA7D 0%, #00768B 100%);
 
 /********       Portfólio        ********/
 
-
+.port-wrap {
+  display: block;
+  position: relative;
+  background: white;
+  padding: 0 20px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 30px 33px -41px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0px 30px 33px -41px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 30px 33px -41px rgba(0, 0, 0, 0.24); }
+  .port-wrap .icon {
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff; }
+    .port-wrap .icon span {
+      color: #fff; }
+  .port-wrap .user-img {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    }
+  .port-wrap .name {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 0;
+    color: #000000; }
+  .port-wrap .position {
+    font-size: 16px;
+    color: #4d4d4d; }
+  .port-wrap .h2{
+    color:  #00AA7D;
+    font-size: large;
+  }
+  .port-wrap .name{
+    font-size: large;
+  }
+  .port-wrap .mt-4{
+    color: rgba(0, 0, 0, 0.753);
+    margin-bottom: -3%;
+  }
+    
+    .port-section .owl-carousel .owl-stage-outer:before {
+      display: none;}
+  .port-section .owl-carousel .owl-stage-outer:after {
+      display: none; }
 
 /********     Fim Portfólio      ********/
 

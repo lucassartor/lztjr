@@ -71,12 +71,12 @@ AOS.init({
         });
 
         $('.carousel-testimony').owlCarousel({
-			center: true,
+			center: false,
 			loop: true,
 			autoplay: true,
 			autoplaySpeed:2000,
 			items:1,
-			margin: 30,
+			margin: 15,
 			stagePadding: 0,
 			nav: false,
 			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
@@ -89,7 +89,13 @@ AOS.init({
 				},
 				1000:{
 					items: 3
-				}
+                },
+                1200:{
+                    items:4
+                },
+                2000:{
+                    items:7
+                }
 			}
         });
         
@@ -108,7 +114,7 @@ AOS.init({
 					items: 1
 				},
 				600:{
-					items: 2
+					items: 1
 				},
 				1000:{
 					items: 3
