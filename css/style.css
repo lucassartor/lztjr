@@ -196,7 +196,7 @@
 	height: 100%;
 	margin: 0;
 	padding: 20px;
-background:linear-gradient(45deg, #00AA7D 0%, #00768B 100%);
+  background:linear-gradient(45deg, #00AA7D 0%, #00768B 100%);
 }
 
 #segundo-servicos {
@@ -221,7 +221,7 @@ background:linear-gradient(45deg, #00AA7D 0%, #00768B 100%);
   border-radius: 4px;
   -webkit-box-shadow: 0px 30px 33px -41px rgba(0, 0, 0, 0.24);
   -moz-box-shadow: 0px 30px 33px -41px rgba(0, 0, 0, 0.24);
-  box-shadow: 0px 30px 33px -41px rgba(0, 0, 0, 0.24); }
+  box-shadow: 0px 30px 33px -41px rgba(0, 0, 0, 0.616); }
   .port-wrap .icon {
     position: absolute;
     top: -20px;
@@ -253,7 +253,7 @@ background:linear-gradient(45deg, #00AA7D 0%, #00768B 100%);
     font-size: large;
   }
   .port-wrap .mt-4{
-    color: rgba(0, 0, 0, 0.753);
+    color: rgba(0, 0, 0, 0.856);
     margin-bottom: -3%;
   }
     
@@ -261,6 +261,21 @@ background:linear-gradient(45deg, #00AA7D 0%, #00768B 100%);
       display: none;}
   .port-section .owl-carousel .owl-stage-outer:after {
       display: none; }
+
+  .item :hover{
+    transform: scale(1.05);
+    z-index: 2;
+    background-color: rgb(250, 253, 251);
+    transition: 0.15s ease;
+    border-style: solid;
+    border-width: 0.30em;
+    border-color:linear-gradient(45deg, #00AA7D 0%, #00768B 100%);
+  }
+
+  .noHover{
+    pointer-events: none;
+  }
+
 
 /********     Fim Portfólio      ********/
 
