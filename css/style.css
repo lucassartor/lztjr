@@ -276,6 +276,13 @@ background:linear-gradient(45deg, #00AA7D 0%, #00768B 100%);
     pointer-events: none;
   }
 
+#botaocase:hover{
+	border: #00768B;
+	border-style: solid;
+	border-width: 2px;
+	backgroud: #fff;
+	color: #00768B;
+}
 
 /********     Fim Portfólio      ********/
 
