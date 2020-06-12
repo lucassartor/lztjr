@@ -39,10 +39,17 @@
     <link rel="stylesheet" href="../vendor/flaticon/font/flaticon.css">
     <link rel="stylesheet" href="../vendor/icomoon/icomoon.css">
     <link rel="stylesheet" href="../vendor/open-iconic/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" />
 
 
 </head>
 <body>
+    <!-- Botao whatsapp -->
+    <a class="whatsapp-link" href="https://api.whatsapp.com/send?l=pt&amp;phone=5511963812901" target="blank">
+        <i class="fa fa-whatsapp"></i>
+    </a>
+    <!-- Botao whatsapp -->
+
     <!-- Barra de Navegação -->
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
         <div class="container">
@@ -58,14 +65,28 @@
                         <span class="icon-menu"></span> Menu
                     </button>
 
-                    <div class="collapse navbar-collapse text-right" id="ftco-nav" >
+                    <div class="collapse navbar-collapse text-right" id="ftco-nav">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item"><a href="../index.html" class="nav-link">Início</a></li>
-                            <li class="nav-item"><a href="../pages/quem-somos.html" class="nav-link">Sobre Nós</a></li>
-                            <li class="nav-item"><a href="../pages/servicos.html" class="nav-link">Serviços</a></li>
-                            <li class="nav-item"><a href="../pages/portfolio.html" class="nav-link">Portfólio</a></li>
-                            <li class="nav-item"><a href="../pages/contato.html" class="nav-link">Contato</a></li>
-							<li class="nav-item active"><a href="../pages/nossa-equipe.html" class="nav-link">Nossa Equipe</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="quem-somos.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sobre Nós</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown04">
+                                    <a class="dropdown-item" href="quem-somos.html">Nossa História</a>
+                                    <a class="dropdown-item active" href="nossa-equipe.html">Nossa Equipe</a>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="../servicos.html" class="nav-link">Serviços</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../portfolio/portfolio.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfólio</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown04">
+                                    <a class="dropdown-item" href="../portfolio/portfolio.html">Todos os Cases</a>
+                                    <a class="dropdown-item" href="../portfolio/case1.html">Case 1</a>
+                                    <a class="dropdown-item" href="../portfolio/case2.html">Case 2</a>
+                                    <a class="dropdown-item" href="../portfolio/case3.html">Case 3</a>
+                                    <a class="dropdown-item" href="../portfolio/case4.html">Case 4</a>
+                                </div>
+                            </li>
+                            <li class="nav-item "><a href="../contato.html" class="nav-link">Contato</a></li>
                         </ul>
                     </div>
                 </div>
@@ -75,7 +96,7 @@
     <!-- Fim Barra de Navegação -->
 
     <!-- Seção Apresentação Equipe -->
-    <section class="home-slider ftco-degree-bg">
+    <section class="home-slider ftco-degree-bg" >
         <div class="slider-item bread-wrap">
             <div class="overlay"></div>
             <div class="container">
@@ -89,7 +110,7 @@
             </div>
         </div>
     </section>
-	<section class="site-section border-bottom" id="team-section">
+	<section class="site-section border-bottom" id="team-section" >
       <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
                 <div class="col-md-7 text-center heading-section ftco-animate">
@@ -217,76 +238,41 @@
     </section>
     <!-- Fim Apresentação Equipe -->
 
-	<!-- Rodapé -->
-        <footer class="ftco-footer ftco-bg-dark ftco-section">
-            <div class="container">
-                <div class="row mb-5">
-                    <!-- Descrição LZT Jr. -->
-                    <div class="col-lg-4">
-                        <div class="ftco-footer-widget mb-4">
-                            <h2 class="ftco-heading-2">LZT Júnior</h2>
-                            <p>A LZT Júnior é uma associação civil sem fins lucrativos, formada por alunos de graduação do curso de Lazer e Turismo da Escola de Artes, Ciências e Humanidades da Universidade de São Paulo.</p>
-                            <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
-                                <li class="ftco-animate">
-                                    <a href="https://www.linkedin.com/company/lztjúnior/"><span class="icon-linkedin"></span></a>
-                                </li>
-                                <li class="ftco-animate">
-                                    <a href="https://www.facebook.com/lztjunior/"><span class="icon-facebook"></span></a>
-                                </li>
-                                <li class="ftco-animate">
-                                    <a href="https://www.facebook.com/lztjunior/"><span class="icon-instagram"></span></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- Fim Descrição LZT Jr. -->
-
-                    <!-- Navegação Rodapé -->
-                    <div class="col-lg-4">
-                        <div class="ftco-footer-widget mb-4">
-                            <h2 class="ftco-heading-2 second">Navegação</h2>
-                            <ul class="list-unstyled">
-                                <li><a href="index.html" class="py-2 d-block">Início</a></li>
-                                <li><a href="pages/quem-somos.html" class="py-2 d-flex">Sobre Nós</a></li>
-                                <li><a href="pages/servicos.html" class="py-2 d-flex">Serviços</a></li>
-                                <li><a href="pages/portfolio.html" class="py-2 d-flex">Portfólio</a></li>
-                                <li><a href="pages/contato.html" class="py-2 d-flex">Contato</a></li>
-								<li><a href="pages/nossa-equipe.html" class="py-2 d-flex">Nossa Equipe</a></li>
-							</ul>
-                        </div>
-                    </div>
-                    <!-- Fim Navegação Rodapé -->
-
-                    <!--Contato do Rodapé -->
-                    <div class="col-lg-4">
-                        <div class="ftco-footer-widget mb-4">
-                            <h2 class="ftco-heading-2">Informações de Contato</h2>
-                            <ul class="list-unstyled">
-                                <li><a href="#" class="py-2 d-block">Rua Arlindo Béttio, 1000 - Ermelino Matarazzo São Paulo</a></li>
-                                <li><a href="#" class="py-2 d-block">11 123456789</a></li>
-                                <li><a href="#" class="py-2 d-block">email@email.com</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--Fim Contato do Rodapé -->
-                </div>
-
-                <!--Direitos Autorais e Créditos -->
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <p>
-                            Copyright &copy;
-                            <script>
-                                document.write(new Date().getFullYear());
-                            </script>
-                            Todos os direitos reservados | Feito por <a href="http://sintesejr.com.br" target="_blank">Síntese Jr.</a>
-                        </p>
+    <!-- Rodapé -->
+    <footer class="ftco-footer ftco-bg-dark ftco-section" >
+        <div class="container">
+            <div class="row mb-5">
+                <!-- Descrição LZT Jr. -->
+                <div class="col-lg-12">
+                    <div class="ftco-footer-widget mb-4 text-center">
+                        <h2 class="ftco-heading-2">LZT Júnior</h2>
+                        <p>A LZT Júnior é uma associação civil sem fins lucrativos, formada por alunos de graduação do curso de Lazer e Turismo da Escola de Artes, Ciências e Humanidades da Universidade de São Paulo.</p>
+                        <ul class="ftco-footer-social list-unstyled">
+                            <li class="ftco-animate"><a href="https://www.linkedin.com/company/lztjúnior/"><span class="icon-linkedin"></span></a></li>
+                            <li class="ftco-animate"><a href="https://www.facebook.com/lztjunior/"><span class="icon-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="https://www.instagram.com/lztjunior/"><span class="icon-instagram"></span></a></li>
+                        </ul>
                     </div>
                 </div>
-                <!-- Fim Direitos Autorais e Créditos -->
+                <!-- Fim Descrição LZT Jr. -->
+
+
+
+                <!--Contato do Rodapé -->
+
+                <!--Fim Contato do Rodapé -->
             </div>
-        </footer>
-        <!-- Fim Rodapé -->
+
+            <!--Direitos Autorais e Créditos -->
+            <div class="row" style="margin-top: 15px">
+                <div class="col-md-12 text-center">
+                    <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados | Feito por <a href="http://sintesejr.com.br" target="_blank" style="font-weight: 400;">Síntese Jr.</a></p>
+                </div>
+            </div>
+            <!-- Fim Direitos Autorais e Créditos -->
+        </div>
+    </footer>
+    <!-- Fim Rodapé -->
 		
     <!-- JavaScript Externo -->
         <!-- JQuery -->

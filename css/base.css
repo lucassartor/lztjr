@@ -2641,7 +2641,7 @@ input[type="button"].btn-block {
 .dropdown-item.active, .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #78d5ef; }
+    background-color: #1c7430 !important; }
 .dropdown-item.disabled, .dropdown-item:disabled {
     color: #6c757d;
     background-color: transparent; }
@@ -8074,14 +8074,14 @@ textarea.form-control {
     font-size: 16px;
     background:linear-gradient(45deg, #00AA7D 0%, #00768B 100%);
 
-    padding: 12em 0 8em 0; }
+    padding: 2em 0 2em 0; }
 .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
     letter-spacing: .1em; }
 .ftco-footer .ftco-footer-widget h2 {
     font-weight: normal;
     color: #fff;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     font-size: 18px;
     font-weight: 300; }
 
@@ -9300,7 +9300,8 @@ ftco-heading-2 second{
 .dropdown-item.active, .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #78d5ef; }
+    background:linear-gradient(45deg, #00AA7D 0%, #00768B 100%) !important;
+     }
 .dropdown-item.disabled, .dropdown-item:disabled {
     color: #6c757d;
     background-color: transparent; }
@@ -9528,6 +9529,25 @@ ftco-heading-2 second{
         width: 85% !important;
     }
     
+}
+
+.whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 10px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
 }
 
 @media (max-width: 425px) {
@@ -10158,7 +10178,7 @@ ftco-heading-2 second{
 .dropdown-item.active, .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #78d5ef; }
+    background-color: #1c7430; }
 .dropdown-item.disabled, .dropdown-item:disabled {
     color: #6c757d;
     background-color: transparent; }

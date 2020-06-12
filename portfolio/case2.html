@@ -39,10 +39,18 @@
     <link rel="stylesheet" href="../vendor/flaticon/font/flaticon.css">
     <link rel="stylesheet" href="../vendor/icomoon/icomoon.css">
     <link rel="stylesheet" href="../vendor/open-iconic/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" />
 
 
 </head>
 <body>
+    <!-- Botao whatsapp -->
+    <a class="whatsapp-link" href="https://api.whatsapp.com/send?l=pt&amp;phone=5511963812901" target="blank">
+        <i class="fa fa-whatsapp"></i>
+    </a>
+    <!-- Botao whatsapp -->
+
+
     <!-- Barra de Navegação -->
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
         <div class="container">
@@ -61,11 +69,25 @@
                     <div class="collapse navbar-collapse text-right" id="ftco-nav">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item"><a href="../index.html" class="nav-link">Início</a></li>
-                            <li class="nav-item"><a href="../pages/quem-somos.html" class="nav-link">Sobre Nós</a></li>
-                            <li class="nav-item"><a href="../pages/servicos.html" class="nav-link">Serviços</a></li>
-                            <li class="nav-item active"><a href="../pages/portfolio.html" class="nav-link">Portfólio</a></li>
-                            <li class="nav-item"><a href="../pages/contato.html" class="nav-link">Contato</a></li>
-							<li class="nav-item"><a href="../pages/nossa-equipe.html" class="nav-link">Nossa Equipe</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../sobre-nos/quem-somos.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sobre Nós</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown04">
+                                    <a class="dropdown-item" href="../sobre-nos/quem-somos.html">Nossa História</a>
+                                    <a class="dropdown-item" href="../sobre-nos/nossa-equipe.html">Nossa Equipe</a>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="../servicos.html" class="nav-link">Serviços</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="portfolio.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfólio</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown04">
+                                    <a class="dropdown-item" href="portfolio.html">Todos os Cases</a>
+                                    <a class="dropdown-item" href="case1.html">Case 1</a>
+                                    <a class="dropdown-item active" href="case2.html">Case 2</a>
+                                    <a class="dropdown-item" href="case3.html">Case 3</a>
+                                    <a class="dropdown-item" href="case4.html">Case 4</a>
+                                </div>
+                            </li>
+                            <li class="nav-item "><a href="../contato.html" class="nav-link">Contato</a></li>
                         </ul>
                     </div>
                 </div>
@@ -82,8 +104,8 @@
                 <div class="row slider-text justify-content-center align-items-center">
                     <div class="col-md-10 col-sm-12 ftco-animate mb-4 text-center">
                         <p class="breadcrumbs"><span class="mr-2"><a href="../index.html">Início</a></span> <span>Portfolio</span></p>
-                        <h1 class="mb-3 bread">Case 4</h1>
-                        <p>Keyword Case 4</p>
+                        <h1 class="mb-3 bread">Case 2</h1>
+                        <p>Keyword Case 2</p>
                     </div>
                 </div>
 				
@@ -98,7 +120,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="carousel owl-carousel">
-                        <div>
+                        <div >
                             
                                 <img src="../img/evento1.jpg" class="img-fluid" alt="">
                             
@@ -108,7 +130,7 @@
                                 <img src="../img/evento2.JPG" class="img-fluid" alt="">
                             
                         </div>
-                        <div >
+                        <div>
                             
                                 <img src="../img/evento3.jpg" class="img-fluid" alt="">
                             
@@ -145,7 +167,7 @@
                             <div class="details_info_list">
                                 <div class="single_details_info d-flex justify-content-between align-items-center">
                                    <span class="left_info">Empresa</span>
-                                   <span class="right_info">Amazon</span>
+                                   <span class="right_info">Dell</span>
                                 </div>
                                 <div class="single_details_info d-flex justify-content-between align-items-center">
                                    <span class="left_info">Tipo de Serviço</span>
@@ -157,38 +179,74 @@
                                 </div>
                                 <div class="single_details_info d-flex justify-content-between align-items-center">
                                    <span class="left_info">Site da empresa:</span>
-                                   <span class="right_info"><a href="https://www.amazon.com.br" target="blank">Amazon</a></span>
+                                   <span class="right_info"><a href="https://www.dell.com.br" target="blank">Dell</a></span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <img src="../img/amazon.jpg" style="margin-left: 100px; margin-top: 40px; max-height: 250px; max-width: 460px"> 
+                    <img src="../img/dell-logo.png" style="margin-left: 200px; margin-top: 40px; max-height: 230px; max-width: 460px">
                 </div>
             </div>
         </div>
     </div> 
-    <section class=" py-3 site-section">
+    <section class=" py-3 site-section"  style="margin-bottom: 10em;">
       <div class="container">
         <div class="row">
           <div class="col-md-4 text-center">
             <div class="form-group" style="margin-bottom: 50px;">
-                <a href="../pages/case3.html"><input type="submit" value="Case Anterior" class="btn btn-primary py-3 px-5 mx-auto d-block" id="botaocase"/></a>
+                <a href="case1.html"><input type="submit" value="Case Anterior" class="btn btn-primary py-3 px-5 mx-auto d-block" id="botaocase"/></a>
             </div>
           </div>
           <div class="col-md-4 text-center">
             <div class="form-group" style="margin-bottom: 50px;">
-                <a href="../pages/portfolio.html"><input type="submit" value="Todos os Cases" class="btn btn-primary py-3 px-5 mx-auto d-block" id="botaocase"/></a>
+                <a href="portfolio.html"><input type="submit" value="Todos os Cases" class="btn btn-primary py-3 px-5 mx-auto d-block"  id="botaocase"/></a>
             </div>
           </div>
           <div class="col-md-4 text-center">
            <div class="form-group" style="margin-bottom: 50px; ">
-                <a href="../pages/case1.html"><input type="submit" value="Próximo Case" class="btn btn-primary py-3 px-5 mx-auto d-block" id="botaocase" /></a>
+                <a href="case3.html"><input type="submit" value="Próximo Case" class="btn btn-primary py-3 px-5 mx-auto d-block" id="botaocase"/></a>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- Fim Carousel -->
+
+    <!-- Rodapé -->
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+        <div class="container">
+            <div class="row mb-5">
+                <!-- Descrição LZT Jr. -->
+                <div class="col-lg-12">
+                    <div class="ftco-footer-widget mb-4 text-center">
+                        <h2 class="ftco-heading-2">LZT Júnior</h2>
+                        <p>A LZT Júnior é uma associação civil sem fins lucrativos, formada por alunos de graduação do curso de Lazer e Turismo da Escola de Artes, Ciências e Humanidades da Universidade de São Paulo.</p>
+                        <ul class="ftco-footer-social list-unstyled">
+                            <li class="ftco-animate"><a href="https://www.linkedin.com/company/lztjúnior/"><span class="icon-linkedin"></span></a></li>
+                            <li class="ftco-animate"><a href="https://www.facebook.com/lztjunior/"><span class="icon-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="https://www.instagram.com/lztjunior/"><span class="icon-instagram"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Fim Descrição LZT Jr. -->
+
+
+
+                <!--Contato do Rodapé -->
+
+                <!--Fim Contato do Rodapé -->
+            </div>
+
+            <!--Direitos Autorais e Créditos -->
+            <div class="row" style="margin-top: 15px">
+                <div class="col-md-12 text-center">
+                    <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados | Feito por <a href="http://sintesejr.com.br" target="_blank" style="font-weight: 400;">Síntese Jr.</a></p>
+                </div>
+            </div>
+            <!-- Fim Direitos Autorais e Créditos -->
+        </div>
+    </footer>
+    <!-- Fim Rodapé -->
 
 
     <!-- JavaScript Externo -->
