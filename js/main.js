@@ -70,7 +70,7 @@ AOS.init({
             }
         });
 
-        $('.carousel-testimony').owlCarousel({
+        $('.carousel-portifolio').owlCarousel({
 			center: false,
 			loop: true,
 			autoplay: true,
@@ -99,7 +99,7 @@ AOS.init({
 			}
         });
         
-        $('.carousel-portifolio').owlCarousel({
+        $('.carousel-testimony').owlCarousel({
 			center: true,
 			loop: true,
 			autoplay: true,

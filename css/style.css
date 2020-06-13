@@ -230,7 +230,7 @@ background:linear-gradient(45deg, #00AA7D 0%, #00768B 100%);
     height: 40px;
     border-radius: 50%;
     background: #fff; }
-    .port-wrap .icon span {
+  .port-wrap .icon span {
       color: #fff; }
   .port-wrap .user-img {
     width: 80px;
@@ -257,12 +257,12 @@ background:linear-gradient(45deg, #00AA7D 0%, #00768B 100%);
     margin-bottom: -3%;
   }
     
-    .port-section .owl-carousel .owl-stage-outer:before {
+  .port-section .owl-carousel .owl-stage-outer:before {
       display: none;}
   .port-section .owl-carousel .owl-stage-outer:after {
       display: none; }
 
-  .item :hover{
+  .carousel-portifolio .item :hover{
     transform: scale(1.05);
     z-index: 2;
     background-color: rgb(250, 253, 251);
@@ -280,7 +280,7 @@ background:linear-gradient(45deg, #00AA7D 0%, #00768B 100%);
 	border: #00768B;
 	border-style: solid;
 	border-width: 2px;
-	backgroud: #fff;
+	backgronud: #fff;
 	color: #00768B;
 }
 
