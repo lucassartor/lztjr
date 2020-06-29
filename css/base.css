@@ -9118,7 +9118,7 @@ ftco-heading-2 second{
     content: '';
     position: absolute;
     left: 0;
-    bottom: -50px;
+    bottom: -65px !important;
     overflow: visible;
     width: 100%;
     height: 120px;
@@ -9129,6 +9129,8 @@ ftco-heading-2 second{
     -o-transform: skewY(4deg);
     transform: skewY(4deg);
     background-color: #fff; }
+
+
 
 /*Barra de Navegação */
 .collapse:not(.show) {
