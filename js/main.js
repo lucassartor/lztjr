@@ -113,14 +113,17 @@ AOS.init({
 					items: 1
 				},
 				600:{
-					items: 2
+					items: 1
 				},
 				1000:{
-					items: 3
+					items: 1
                 },
                 1100:{
-					items: 4
+					items: 2
                 },
+                2000:{
+                    items:4
+                }
 			}
         });
         
