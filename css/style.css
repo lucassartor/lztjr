@@ -431,3 +431,81 @@ visibility: hidden;
   transform: translateX(0%); }
   
 /***********	Fim Nossa Equipe *************/
+
+
+
+.portfolio-wrap {
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background: rgba(34, 34, 34, 0.6);
+
+}
+
+.portfolio-wrap::before {
+  content: "";
+  background: rgba(34, 34, 34, 0.6);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all ease-in-out 0.6s;
+  z-index: 2;
+  opacity: 0;
+}
+
+.portfolio-wrap img {
+  transition: all ease-in-out 0.3s;
+}
+
+.portfolio-wrap .portfolio-info {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  //font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+.portfolio-wrap .portfolio-info h4 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.portfolio-wrap .portfolio-info p {
+  color: white;
+  font-size: 14px;
+  //text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  //font-style: italic;
+}
+
+.portfolio-wrap:hover::before {
+  opacity: 0.8;
+}
+.portfolio-wrap:hover img {
+  transform: scale(1.2);
+}
+.portfolio-wrap:hover .portfolio-info {
+  opacity: 1;
+}
+
+@media (min-width: 50em){
+  .portfolio-wrap .portfolio-info p{
+    font-size: 24px;
+  }
+}
