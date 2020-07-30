@@ -509,3 +509,26 @@ visibility: hidden;
     font-size: 24px;
   }
 }
+
+.btn-green{
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+  background: #00AA7D;
+  border: 1px solid #00AA7D;
+  opacity: 0.8;
+  border-radius: 2px;
+  transition: 0.3s;;
+}
+
+.btn-green:hover{
+  background:linear-gradient(45deg, #00AA7D 0%, #00768B 100%);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+  background-color: white;
+  opacity: 1;
+  box-shadow: 0 16px 20px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
