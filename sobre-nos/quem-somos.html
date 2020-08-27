@@ -1,518 +1,633 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8" />
-        <title>LZT Jr.</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<head>
+    <meta charset="UTF-8"/>
+    <title>LZT Jr.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 
-        <!-- CSS Externos -->
-        <!-- Bootstrap -->
-        <link rel="stylesheet" href="../vendor/bootstrap/bootstrap-datepicker.css" />
-        <link rel="stylesheet" href="../vendor/bootstrap/bootstrap.min.css" />
+    <!-- CSS Externos -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../vendor/bootstrap/bootstrap-datepicker.css"/>
+    <link rel="stylesheet" href="../vendor/bootstrap/bootstrap.min.css"/>
 
-        <!-- Aos -->
-        <link rel="stylesheet" href="../vendor/aos/aos.css" />
+    <!-- Aos -->
+    <link rel="stylesheet" href="../vendor/aos/aos.css"/>
 
-        <!-- Jquery -->
-        <link rel="stylesheet" href="../vendor/jquery/jquery-ui.css" />
+    <!-- Jquery -->
+    <link rel="stylesheet" href="../vendor/jquery/jquery-ui.css"/>
 
-        <!-- Magnific Popup -->
-        <link rel="stylesheet" href="../vendor/magnific-popup/magnific-popup.css" />
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="../vendor/magnific-popup/magnific-popup.css"/>
 
-        <!-- Animate -->
-        <link rel="stylesheet" href="../vendor/animate/animate.css" />
+    <!-- Animate -->
+    <link rel="stylesheet" href="../vendor/animate/animate.css"/>
 
-        <!-- Owl Carrousel -->
-        <link rel="stylesheet" href="../vendor/owl.carousel/owl.carousel.min.css" />
-        <link rel="stylesheet" href="../vendor/owl.carousel/owl.theme.default.min.css" />
+    <!-- Owl Carrousel -->
+    <link rel="stylesheet" href="../vendor/owl.carousel/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="../vendor/owl.carousel/owl.theme.default.min.css"/>
 
-        <!-- CSS Principal -->
-        <!-- CSS Base -->
-        <link rel="stylesheet" href="../css/base.css" />
+    <!-- CSS Principal -->
+    <!-- CSS Base -->
+    <link rel="stylesheet" href="../css/base.css"/>
 
-        <!-- CSS Específico -->
-        <link rel="stylesheet" href="../css/style.css" />
+    <!-- CSS Específico -->
+    <link rel="stylesheet" href="../css/style.css"/>
 
-        <!-- Fontes Externas -->
-        <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,700,800" rel="stylesheet" />
-        <link rel="stylesheet" href="../vendor/ionicons/css/ionicons.min.css" />
-        <link rel="stylesheet" href="../vendor/flaticon/font/flaticon.css" />
-        <link rel="stylesheet" href="../vendor/icomoon/icomoon.css" />
-        <link rel="stylesheet" href="../vendor/open-iconic/open-iconic-bootstrap.min.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" />
-    </head>
-    <body>
-        <!-- Botao whatsapp -->
-        <a class="whatsapp-link" href="https://api.whatsapp.com/send?l=pt&amp;phone=5511963812901" target="blank">
-            <i class="fa fa-whatsapp"></i>
-        </a>
-        <!-- Botao whatsapp -->
+    <!-- Fontes Externas -->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,700,800" rel="stylesheet"/>
+    <link rel="stylesheet" href="../vendor/ionicons/css/ionicons.min.css"/>
+    <link rel="stylesheet" href="../vendor/flaticon/font/flaticon.css"/>
+    <link rel="stylesheet" href="../vendor/icomoon/icomoon.css"/>
+    <link rel="stylesheet" href="../vendor/open-iconic/open-iconic-bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"/>
+</head>
+<body>
+<!-- Botao whatsapp -->
+<a class="whatsapp-link" href="https://api.whatsapp.com/send?l=pt&amp;phone=5511963812901" target="blank">
+    <i class="fa fa-whatsapp"></i>
+</a>
+<!-- Botao whatsapp -->
 
-        <!-- Barra de Navegação -->
-        <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-            <div class="container">
+<!-- Barra de Navegação -->
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container">
 
-                <div class="row ">
-                    <div class="col col-lg-4">
-                        <a class="navbar-brand" href="../index.html"><img src="../img/logo/logo-branco.png" style="width: 20%" class="logotipo" alt=""></a>
+        <div class="row ">
+            <div class="col col-lg-4">
+                <a class="navbar-brand" href="../index.html"><img src="../img/logo/logo-branco.png" style="width: 20%"
+                                                                  class="logotipo" alt=""></a>
+            </div>
+
+            <div class="col col-lg-8  text-right" style="margin-top: 10px">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                        aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-menu"></span> Menu
+                </button>
+
+                <div class="collapse navbar-collapse text-right" id="ftco-nav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a href="../index.html" class="nav-link">Início</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="quem-somos.html" id="dropdown04"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sobre Nós</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown04">
+                                <a class="dropdown-item active" href="quem-somos.html">Nossa História</a>
+                                <a class="dropdown-item" href="nossa-equipe.html">Nossa Equipe</a>
+                                <a class="dropdown-item" href="nossa-marca.html">Nossa Marca</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a href="../servicos.html" class="nav-link">Serviços</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="../portfolio/portfolio.html" id="dropdown04"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfólio</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown04">
+                                <a class="dropdown-item" href="../portfolio/portfolio.html">Todos os Cases</a>
+                                <a class="dropdown-item" href="../portfolio/case1.html">Case 1</a>
+                                <a class="dropdown-item" href="../portfolio/case2.html">Case 2</a>
+                                <a class="dropdown-item" href="../portfolio/case3.html">Case 3</a>
+                                <a class="dropdown-item" href="../portfolio/case4.html">Case 4</a>
+                            </div>
+                        </li>
+                        <li class="nav-item "><a href="../contato.html" class="nav-link">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- Fim Barra de Navegação -->
+
+<!-- Seção Apresentação Sobre Nós -->
+<section class="home-slider ftco-degree-bg">
+    <div class="slider-item bread-wrap" style="background-image: url('images/bg_1.jpg');"
+         data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row slider-text justify-content-center align-items-center">
+                <div class="col-md-10 col-sm-12 ftco-animate mb-4 text-center">
+                    <p class="breadcrumbs">
+                        <span class="mr-2"><a href="../index.html">Início</a></span> <span>Sobre Nós</span>
+                    </p>
+                    <h1 class="mb-3 bread">Quem Somos?</h1>
+                    <p>Um pouco sobre nossa equipe e sobre nossa história</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Fim Apresentação Sobre Nós -->
+
+<!-- Seção Nós -->
+<section class="site-section" id="about-section">
+    <div class="container">
+        <div class="row mb-5 justify-content-center">
+            <div class="col-md-7 text-center heading-section ftco-animate bottom-mar">
+                <span class="subheading">SOBRE NÓS</span>
+                <h2>Sobre a LZT Júnior</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="carousel owl-carousel">
+                    <img src="../img/Bandeira.png" alt=""/>
+                    <img src="../img/IMG_1176.JPG" alt=""/>
+                    <img src="../img/pessoal.JPG" alt=""/>
+                </div>
+            </div>
+            <div class="col-lg-5 ml-auto">
+                <h3 class="text-black mb-4" style="margin-bottom: 5px !important;">Quem somos?</h3>
+
+                <p>A LZT Júnior é uma associação civil sem fins lucrativos, criada em 2013 por
+                    alunos de graduação do curso de Lazer e Turismo da Escola de Artes,
+                    Ciência e Humanidades (EACH) da Universidade de São Paulo (USP) e
+                    integra o Movimento Empresa Júnior (MEJ).</p>
+
+                <p> Está há sete anos fomentando o
+                    mercado e promovendo o acesso ao desenvolvimento de seus membros.
+                    Além disso a LZT Júnior é parte do movimento através do Núcleo São Paulo,
+                    FEJESP e Brasil Júnior e possui sede na Escola de Artes, Ciências e
+                    Humanidades da USP.</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Fim Seção Nós -->
+
+<!-- Seção Missão Visão e Valores -->
+<section class="site-section-mvv" style="margin-bottom: 7em;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <div class="p-3 box-with-humber">
+                    <div class="words-behind">MISSÃO</div>
+                    <h2 class="text-primary">Missão</h2>
+                    <p class="mb-4">Promover serviços de excelência em lazer e turismo, alinhar teoria e prática,
+                        formando agentes de transformação capacitados.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="p-3 box-with-humber">
+                    <div class="words-behind">VISÃO</div>
+                    <h2 class="text-primary">Visão</h2>
+                    <p class="mb-4">Realizar projetos buscando atingir os objetivos de desenvolvimento sustentável de
+                        forma interdisciplinar. </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="p-3 box-with-humber">
+                    <div class="words-behind">VALORES</div>
+                    <h2 class="text-primary">Valores</h2>
+                    <p class="mb-4">Resiliência, paixão, equipe, pertencimento, criatividade, entusiasmo, atitude e
+                        responsabilidade</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Fim Seção Missão Visão e Valores -->
+
+<!-- Seção Diferenciais -->
+<section class="ftco-section" style="margin-bottom: 8em;">
+    <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+                <span class="subheading">NOSSOS DIFERENCIAIS</span>
+                <h2>Possuímos preço abaixo da média do mercado com excelência</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+                <div class="media block-6 services d-block text-center">
+                    <div class="d-flex justify-content-center">
+                        <div class="icon color-4 d-flex justify-content-center mb-3"><span
+                                class="align-self-center icon-dollar"></span></div>
                     </div>
-
-                    <div class="col col-lg-8  text-right" style="margin-top: 10px">
-
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="icon-menu"></span> Menu
-                        </button>
-
-                        <div class="collapse navbar-collapse text-right" id="ftco-nav">
-                            <ul class="navbar-nav ml-auto">
-                                <li class="nav-item"><a href="../index.html" class="nav-link">Início</a></li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="quem-somos.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sobre Nós</a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdown04">
-                                        <a class="dropdown-item active" href="quem-somos.html">Nossa História</a>
-                                        <a class="dropdown-item" href="nossa-equipe.html">Nossa Equipe</a>
-                                        <a class="dropdown-item" href="nossa-marca.html">Nossa Marca</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item"><a href="../servicos.html" class="nav-link">Serviços</a></li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="../portfolio/portfolio.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfólio</a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdown04">
-                                        <a class="dropdown-item" href="../portfolio/portfolio.html">Todos os Cases</a>
-                                        <a class="dropdown-item" href="../portfolio/case1.html">Case 1</a>
-                                        <a class="dropdown-item" href="../portfolio/case2.html">Case 2</a>
-                                        <a class="dropdown-item" href="../portfolio/case3.html">Case 3</a>
-                                        <a class="dropdown-item" href="../portfolio/case4.html">Case 4</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item "><a href="../contato.html" class="nav-link">Contato</a></li>
-                            </ul>
-                        </div>
+                    <div class="media-body p-2">
+                        <h3 class="heading">Custo x Benefício</h3>
+                        <p>Possuímos preço abaixo da média do mercado, mantendo a excelência dos projetos e entregando
+                            serviços de qualidade.</p>
                     </div>
                 </div>
             </div>
-        </nav>
-        <!-- Fim Barra de Navegação -->
-
-        <!-- Seção Apresentação Sobre Nós -->
-        <section class="home-slider ftco-degree-bg">
-            <div class="slider-item bread-wrap" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="row slider-text justify-content-center align-items-center">
-                        <div class="col-md-10 col-sm-12 ftco-animate mb-4 text-center">
-                            <p class="breadcrumbs">
-                                <span class="mr-2"><a href="../index.html">Início</a></span> <span>Sobre Nós</span>
-                            </p>
-                            <h1 class="mb-3 bread">Quem Somos?</h1>
-                            <p>Um pouco sobre nossa equipe e sobre nossa história</p>
-                        </div>
+            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+                <div class="media block-6 services d-block text-center">
+                    <div class="d-flex justify-content-center">
+                        <div class="icon color-1 d-flex justify-content-center mb-3"><span
+                                class="align-self-center icon-black-tie"></span></div>
+                    </div>
+                    <div class="media-body p-2">
+                        <h3 class="heading">Trabalhar com o MEJ</h3>
+                        <p>Ao fechar projetos com a LZT Júnior você incentiva o Movimento Empresa Júnior a crescer e se
+                            desenvolver no Brasil.</p>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Fim Apresentação Sobre Nós -->
-
-        <!-- Seção Nós -->
-        <section class="site-section" id="about-section">
-            <div class="container">
-                <div class="row mb-5 justify-content-center">
-                    <div class="col-md-7 text-center heading-section ftco-animate bottom-mar">
-                        <span class="subheading">SOBRE NÓS</span>
-                        <h2>Sobre a LZT Júnior</h2>
+            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+                <div class="media block-6 services d-block text-center">
+                    <div class="d-flex justify-content-center">
+                        <div class="icon color-2 d-flex justify-content-center mb-3"><span
+                                class="align-self-center icon-school"></span></div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="carousel owl-carousel">
-                            <img src="../img/Bandeira.png" alt="" />
-                            <img src="../img/IMG_1176.JPG" alt="" />
-                            <img src="../img/pessoal.JPG" alt="" />
-                        </div>
-                    </div>
-                    <div class="col-lg-5 ml-auto">
-                        <h3 class="text-black mb-4" style="margin-bottom: 5px !important;">Quem somos?</h3>
-
-                        <p>A LZT Júnior é uma associação civil sem fins lucrativos, criada em 2013 por
-                            alunos de graduação do curso de Lazer e Turismo da Escola de Artes,
-                            Ciência e Humanidades (EACH) da Universidade de São Paulo (USP) e
-                            integra o Movimento Empresa Júnior (MEJ).</p>
-
-                        <p> Está há sete anos fomentando o
-                            mercado e promovendo o acesso ao desenvolvimento de seus membros.
-                            Além disso a LZT Júnior é parte do movimento através do Núcleo São Paulo,
-                            FEJESP e Brasil Júnior e possui sede na Escola de Artes, Ciências e
-                            Humanidades da USP.</p>
-
+                    <div class="media-body p-2">
+                        <h3 class="heading">Apoio à Educação</h3>
+                        <p>Projetos executados aproximam os alunos do meio acadêmico e os mesmos possuem maior contato
+                            com professores pesquisadores conceituados no setor.</p>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Fim Seção Nós -->
 
-        <!-- Seção Missão Visão e Valores -->
-        <section class="site-section-mvv" style="margin-bottom: 7em;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="p-3 box-with-humber">
-                            <div class="words-behind">MISSÃO</div>
-                            <h2 class="text-primary">Missão</h2>
-                            <p class="mb-4">Promover serviços de excelência em lazer e turismo, alinhar teoria e prática, formando agentes de transformação capacitados.</p>
-                        </div>
+            <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+                <div class="media block-6 services d-block text-center">
+                    <div class="d-flex justify-content-center">
+                        <div class="icon color-6 d-flex justify-content-center mb-3"><span
+                                class="align-self-center icon-bar-chart-o"></span></div>
                     </div>
-
-                    <div class="col-md-6 col-lg-4">
-                        <div class="p-3 box-with-humber">
-                            <div class="words-behind">VISÃO</div>
-                            <h2 class="text-primary">Visão</h2>
-                            <p class="mb-4">Realizar projetos buscando atingir os objetivos de desenvolvimento sustentável de forma interdisciplinar. </p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4">
-                        <div class="p-3 box-with-humber">
-                            <div class="words-behind">VALORES</div>
-                            <h2 class="text-primary">Valores</h2>
-                            <p class="mb-4">Resiliência, paixão, equipe, pertencimento, criatividade, entusiasmo, atitude e responsabilidade</p>
-                        </div>
+                    <div class="media-body p-2">
+                        <h3 class="heading">Habilidade dos Alunos</h3>
+                        <p>A graduação proporciona um aprofundamento único no turismo e lazer, aumentando a qualidade do
+                            serviço que a empresa júnior oferece.</p>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Fim Seção Missão Visão e Valores -->
+        </div>
+    </div>
+</section>
+<!-- Fim Diferenciais -->
 
-        <!-- Seção Diferenciais -->
-        <section class="ftco-section" style="margin-bottom: 8em;">
-            <div class="container">
-                <div class="row justify-content-center mb-5 pb-5">
-                    <div class="col-md-7 text-center heading-section ftco-animate">
-                        <span class="subheading">NOSSOS DIFERENCIAIS</span>
-                        <h2>Possuímos preço abaixo da média do mercado com excelência</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                        <div class="media block-6 services d-block text-center">
-                            <div class="d-flex justify-content-center"><div class="icon color-4 d-flex justify-content-center mb-3"><span class="align-self-center icon-dollar"></span></div></div>
-                            <div class="media-body p-2">
-                                <h3 class="heading">Custo x Benefício</h3>
-                                    <p>Possuímos preço abaixo da média do mercado, mantendo a excelência dos projetos e entregando serviços de qualidade.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                        <div class="media block-6 services d-block text-center">
-                            <div class="d-flex justify-content-center"><div class="icon color-1 d-flex justify-content-center mb-3"><span class="align-self-center icon-black-tie"></span></div></div>
-                            <div class="media-body p-2">
-                                <h3 class="heading">Trabalhar com o MEJ</h3>
-                                <p>Ao fechar projetos com a LZT Júnior você incentiva o Movimento Empresa Júnior a crescer e se desenvolver no Brasil.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                        <div class="media block-6 services d-block text-center">
-                            <div class="d-flex justify-content-center"><div class="icon color-2 d-flex justify-content-center mb-3"><span class="align-self-center icon-school"></span></div></div>
-                            <div class="media-body p-2">
-                                <h3 class="heading">Apoio à Educação</h3>
-                                <p>Projetos executados aproximam os alunos do meio acadêmico e os mesmos possuem maior contato com professores pesquisadores conceituados no setor.</p>
-                            </div>
-                        </div>
-                    </div>
+<!-- Seção Opiniões -->
+<section class="ftco-section testimony-section ftco-no-pb opinions" style="margin-bottom: 7em;">
+    <div class="img img-bg border" style="background-image: url(../img/logo_degrade.png);"></div>
+    <div class="overlay"></div>
 
-                    <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-                        <div class="media block-6 services d-block text-center">
-                            <div class="d-flex justify-content-center"><div class="icon color-6 d-flex justify-content-center mb-3"><span class="align-self-center icon-bar-chart-o"></span></div></div>
-                            <div class="media-body p-2">
-                                <h3 class="heading">Habilidade dos Alunos</h3>
-                                <p>A graduação proporciona um aprofundamento único no turismo e lazer, aumentando a qualidade do serviço que a empresa júnior oferece.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <div class="container-fluid">
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+                <span class="subheading" style="-webkit-text-fill-color: white;">Nossos Clientes</span>
+                <h2 class="mb-3">O Que Falam de Nós</h2>
             </div>
-        </section>
-        <!-- Fim Diferenciais -->
+        </div>
 
-        <!-- Seção Opiniões -->
-        <section class="ftco-section testimony-section ftco-no-pb opinions" style="margin-bottom: 7em;">
-            <div class="img img-bg border" style="background-image: url(../img/logo_degrade.png);"></div>
-            <div class="overlay"></div>
-
-            <div class="container-fluid">
-                <div class="row justify-content-center mb-5">
-                    <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-                        <span class="subheading" style="-webkit-text-fill-color: white;">Nossos Clientes</span>
-                        <h2 class="mb-3">O Que Falam de Nós</h2>
-                    </div>
-                </div>
-
-                <div class="row justify-content-center">
-                    <div class="col-md-11">
-                        <div class="carousel-testimony owl-carousel ftco-owl">
+        <div class="row justify-content-center">
+            <div class="col-md-11">
+                <div class="carousel-testimony owl-carousel ftco-owl">
 
 
-                            <div class="item">
-                                <div class="testimony-wrap py-4">
-                                    <div class="icon d-flex align-items-center justify-content-center"><img src="../img/icones/aspas.png" alt="x" /></div>
-                                    <div class="text">
-                                        <p class="mb-4">A LZT Júnior transformou minha vida, quando entrei na EJ em 2017 jamais
-                                            imaginava que eu poderia me tornar presidente. Somente com três meses de EJ
-                                            aceitei e assumi esse desafio, onde não tinha uma vice-presidente e duas áreas
-                                            ficaram vacantes. E quando digo que fui presidente e que participei de quase todas
-                                            as áreas da empresa, todos os empregadores me olham com outros olhos. A LZT
-                                            Júnior foi um marco na minha vida, representou muito e com certeza tem um lugar
-                                            especial no meu coração.
-                                        </p>
-                                        <div class="d-flex align-items-center">
-                                            <div class="user-img" style="background-image: url(../img/funcionario4.jpg);"></div>
-                                            <div class="pl-3">
-                                                <p class="name">Fernanda Calhelha Paschoal,</p>
-                                                <span class="position">Ex Presidente</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div class="testimony-wrap py-4">
-                                    <div class="icon d-flex align-items-center justify-content-center"><img src="../img/icones/aspas.png" alt="x" /></div>
-                                    <div class="text">
-                                        <p class="mb-4">A LZT Júnior teve papel fundamental no desenvolvimento de todo o conceito do
-                                            Observatório do Turismo de Juquitiba, em uma fase importante de criação de uma
-                                            identidade própria e inovadora para o projeto. O embasamento teórico oferecido
-                                            pela empresa nos permitiu buscar diferenciais que dariam ao Observatório do
-                                            Turismo de Juquitiba destaque em relação aos demais observatórios de turismo já
-                                            existentes
-
-                                        </p>
-                                        <div class="d-flex align-items-center">
-                                            <div class="user-img" style="background-image: url(../img/funcionario3.jpg);"></div>
-                                            <div class="pl-3">
-                                                <p class="name"> Pedro Fernandes</p>
-                                                <span class="position">Presidente do Observatório do Turismo de Juquitiba</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div class="testimony-wrap py-4">
-                                    <div class="icon d-flex align-items-center justify-content-center"><img src="../img/icones/aspas.png" alt="x" /></div>
-                                    <div class="text">
-                                        <p class="mb-4">A empresa Júnior do curso de Lazer e Turismo da EACH-USP tem condições de
-                                            atuar no planejamento, implementação, consultoria e análise de projetos ou
-                                            operações relacionadas às áreas de hospitalidade, entretenimento, agenciamento,
-                                            eventos e outras atividades relacionadas a esses setores de serviços. O corpo
-                                            discente conta com o apoios dos docentes para avaliar e viabilizar projetos e
-                                            trabalhos (ações operacionais) nesses campos
-                                        </p>
-                                        <div class="d-flex align-items-center">
-                                            <div class="user-img" style="background-image: url(../img/funcionario2.jpg);"></div>
-                                            <div class="pl-3">
-                                                <p class="name">Luiz Gonzaga Godoi Trigo</p>
-                                                <span class="position">Professor EACH- USP</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="item">
-                                <div class="testimony-wrap py-4">
-                                    <div class="icon d-flex align-items-center justify-content-center"><img src="../img/icones/aspas.png" alt="x" /></div>
-                                    <div class="text">
-                                        <p class="mb-4">Na minha empresa atual eu acredito que passei pelo processo justamente por ter
-                                            tido esse protagonismo dentro de uma empresa júnior, de saber que toda função e
-                                            atividade são essenciais e que começar de baixo e ir subindo te deixa preparado
-                                            para muita coisa. Tanto saber ouvir e realizar tarefas e também estar do outro lado
-                                            delegando também. Então isso me ajudou muito a entender melhor o mercado e
-                                            saber identificar boas oportunidades e como ser flexível e me auto avaliar e
-                                            vaporizar dentro delas.
-                                        </p>
-                                        <div class="d-flex align-items-center">
-                                            <div class="user-img" style="background-image: url(../img/funcionario5.jpg);"></div>
-                                            <div class="pl-3">
-                                                <p class="name">Laura Policarpo</p>
-                                                <span class="position">Ex Presidente</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="testimony-wrap py-4">
-                                    <div class="icon d-flex align-items-center justify-content-center"><img src="../img/icones/aspas.png" alt="x" /></div>
-                                    <div class="text">
-                                        <p class="mb-4">Essa experiência inédita e bem sucedida mostra que a Empresa de Lazer e Turismo
-                                            da EACH/USP tem se fortalecido cada vez mais. Foram dias de intenso trabalho,
-                                            trocas e de muito aprendizado para a equipe de organização composta por
-                                            professores e estudantes da EACH e ESALQ. (II Congresso de Graduação da USP)
-
-                                        </p>
-                                        <div class="d-flex align-items-center">
-                                            <div class="user-img" style="background-image: url(../img/funcionario3.jpg);"></div>
-                                            <div class="pl-3">
-                                                <p class="name">Juliana Rodrigues</p>
-                                                <span class="position">Professora e coordenadora do curso de Lazer e Turismo</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div class="testimony-wrap py-4">
-                                    <div class="icon d-flex align-items-center justify-content-center"><img src="../img/icones/aspas.png" alt="x" /></div>
-                                    <div class="text">
-                                        <p class="mb-4">A LZT Júnior foi o que me fez continuar no curso e me apaixonar por ele! Aprendi
-                                            muitas coisas que não somente abrangeram o campo profissional, mas também o
-                                            lado pessoal. Cresci, amadureci e me desenvolvi. Hoje sou extremamente grata
-                                            pela oportunidade que tive em participar de tantas coisas legais dentro da empresa!
-                                            Me sinto uma profissional mais preparada, mais proativa, com senso de líder e
-                                            sabendo a importância de trabalhar em equipe. A LZT Júnior está no meu coração e
-                                            vou levar seus ensinamentos para sempre!
-                                        </p>
-                                        <div class="d-flex align-items-center">
-                                            <div class="user-img" style="background-image: url(../img/funcionario3.jpg);"></div>
-                                            <div class="pl-3">
-                                                <p class="name">Karina</p>
-                                                <span class="position">Ex Vice Presidente</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                        <!-- ESQUELETO DE ITEM
-                        <div class="item">
-                            <div class="testimony-wrap py-4">
-                            <div class="icon d-flex align-items-center justify-content-center"><img src="../img/icones/aspas.png" alt="x"></div>
+                    <div class="item">
+                        <div class="testimony-wrap py-4">
+                            <div class="icon d-flex align-items-center justify-content-center"><img
+                                    src="../img/icones/aspas.png" alt="x"/></div>
                             <div class="text">
-                                <p class="mb-4">TEXTO DA PESSOA</p>
+                                <p class="mb-4">A LZT Júnior transformou minha vida, quando entrei na EJ em 2017 jamais
+                                    imaginava que eu poderia me tornar presidente.
+                                    E quando digo que fui presidente e que participei de quase todas as áreas da
+                                    empresa, todos os empregadores me olham com outros olhos.
+                                    A LZT Júnior foi um marco na minha vida, representou muito e com certeza tem um
+                                    lugar especial no meu coração.
+                                </p>
                                 <div class="d-flex align-items-center">
-                                <div class="user-img" style="background-image: url(FOTO-DA-PESSOA.jpg)"></div>
-                                <div class="pl-3">
-                                    <p class="name">NOME DA PESSOA</p>
-                                    <span class="position">PROFISSAO DA PESSOA</span>
-                                </div>
+                                    <div class="user-img" style="background-image: url(../img/depoimentos/fernanda.png);"></div>
+                                    <div class="pl-3">
+                                        <p class="name">Fernanda Calhelha Paschoal</p>
+                                        <span class="position">Ex presidente e conselheira</span>
+                                    </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="testimony-wrap py-4">
+                            <div class="icon d-flex align-items-center justify-content-center"><img
+                                    src="../img/icones/aspas.png" alt="x"/></div>
+                            <div class="text">
+                                <p class="mb-4">A LZT Júnior teve papel fundamental no desenvolvimento de todo o
+                                    conceito do Observatório do Turismo de Juquitiba, em uma fase importante de criação
+                                    de uma identidade própria e inovadora para o projeto. O embasamento teórico
+                                    oferecido pela empresa nos permitiu buscar diferenciais que dariam ao Observatório
+                                    do Turismo de Juquitiba destaque em relação aos demais observatórios de turismo já
+                                    existentes.
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <div class="user-img" style="background-image: url(../img/funcionario3.jpg);"></div>
+                                    <div class="pl-3">
+                                        <p class="name"> Pedro Fernandes</p>
+                                        <span class="position">Presidente do Observatório do Turismo de Juquitiba</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        -->
+                    </div>
+
+                    <div class="item">
+                        <div class="testimony-wrap py-4">
+                            <div class="icon d-flex align-items-center justify-content-center"><img
+                                    src="../img/icones/aspas.png" alt="x"/></div>
+                            <div class="text">
+                                <p class="mb-4">A empresa Júnior do curso de Lazer e Turismo da EACH-USP tem condições
+                                    de atuar no planejamento, implementação, consultoria e análise
+                                    de projetos ou operações relacionadas às áreas de hospitalidade, entretenimento,
+                                    agenciamento, eventos e outras atividades relacionadas a esses
+                                    setores de serviços. O corpo discente conta com o apoios dos docentes para avaliar e
+                                    viabilizar projetos e trabalhos (ações operacionais) nesses campos.
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <div class="user-img" style="background-image: url(../img/funcionario2.jpg);"></div>
+                                    <div class="pl-3">
+                                        <p class="name">Luiz Gonzaga Godoi Trigo</p>
+                                        <span class="position">Professor EACH - USP</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
+                    <div class="item">
+                        <div class="testimony-wrap py-4">
+                            <div class="icon d-flex align-items-center justify-content-center"><img
+                                    src="../img/icones/aspas.png" alt="x"/></div>
+                            <div class="text">
+                                <p class="mb-4">Na LZT Júnior aprendi muitas coisas que não somente abrangeram o campo
+                                    profissional, mas também o lado pessoal.
+                                    Cresci, amadureci e me desenvolvi.Me sinto uma profissional mais preparada, mais
+                                    proativa, com senso de líder e sabendo a importância de trabalhar
+                                    em equipe. A LZT Júnior está no meu coração e vou levar seus ensinamentos para
+                                    sempre!
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <div class="user-img" style="background-image: url(../img/depoimentos/karina.png);"></div>
+                                    <div class="pl-3">
+                                        <p class="name">Karina</p>
+                                        <span class="position">Vice presidente de 2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="item">
+                        <div class="testimony-wrap py-4">
+                            <div class="icon d-flex align-items-center justify-content-center"><img
+                                    src="../img/icones/aspas.png" alt="x"/></div>
+                            <div class="text">
+                                <p class="mb-4">Essa experiência inédita e bem sucedida mostra que a Empresa de Lazer e
+                                    Turismo da EACH/USP tem se fortalecido cada vez mais.
+                                    Foram dias de intenso trabalho, trocas e de muito aprendizado para a equipe de
+                                    organização composta por professores e estudantes da
+                                    EACH e ESALQ. (II Congresso de Graduação da USP)
+
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <div class="user-img" style="background-image: url(../img/funcionario3.jpg);"></div>
+                                    <div class="pl-3">
+                                        <p class="name">Juliana Rodrigues</p>
+                                        <span class="position">Professora e coordenadora do curso de Lazer e Turismo</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="testimony-wrap py-4">
+                            <div class="icon d-flex align-items-center justify-content-center"><img
+                                    src="../img/icones/aspas.png" alt="x"/></div>
+                            <div class="text">
+                                <p class="mb-4">Na minha empresa atual eu acredito que passei pelo processo justamente
+                                    por ter tido esse protagonismo dentro de uma empresa júnior,
+                                    de saber que toda função e atividade são essenciais e que começar de baixo e ir
+                                    subindo te deixa preparado para muita coisa. Então isso me
+                                    ajudou muito a entender melhor o mercado e saber identificar boas oportunidades e
+                                    como ser flexível e me auto avaliar e vaporizar dentro delas.
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <div class="user-img" style="background-image: url(../img/depoimentos/laura.png);"></div>
+                                    <div class="pl-3">
+                                        <p class="name">Laura Policarpo</p>
+                                        <span class="position">Ex Presidente</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="testimony-wrap py-4">
+                            <div class="icon d-flex align-items-center justify-content-center"><img
+                                    src="../img/icones/aspas.png" alt="x"/></div>
+                            <div class="text">
+                                <p class="mb-4">Para mim a LZT Júnior representa desafio, aprendizado e crescimento.
+                                    Esperava vivenciar a parte prática de lazer e turismo, e além disso construí
+                                    amizades, cumpri metas e realizei objetivos, e junto com toda gestão, fizemos
+                                    história na EJ, sempre um grande turbilhão de sentimentos; felicidade, frustração,
+                                    realização, cansaço, entre outros. Mas hoje sinto muito orgulho de ter vivido tudo
+                                    isso e percebo o quanto agregou para a pessoa que sou hoje, tanto pessoal quanto
+                                    profissionalmente.
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <div class="user-img" style="background-image: url(../img/depoimentos/leticia.png);"></div>
+                                    <div class="pl-3">
+                                        <p class="name">Letícia Catarina de Jesus Santos</p>
+                                        <span class="position">Ex Assessora de Marketing</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="testimony-wrap py-4">
+                            <div class="icon d-flex align-items-center justify-content-center"><img
+                                    src="../img/icones/aspas.png" alt="x"/></div>
+                            <div class="text">
+                                <p class="mb-4">Intensidade! É a palavra que marca a LZT Júnior, várias reuniões e
+                                    documentos impressos, assinados e idas aos tabeliões da vida. Relacionamento direto
+                                    com professores, todo dia uma aprendizagem na prática, aplicação do conhecimento
+                                    técnico a ações que trazem resultado. Em especial, deixar um legado para que mais
+                                    pessoas pudessem ter a oportunidade de experienciar dentro de cada função o que é
+                                    ser júnior.
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <div class="user-img" style="background-image: url(../img/depoimentos/felipe.png);"></div>
+                                    <div class="pl-3">
+                                        <p class="name">Felipe Soares Romano</p>
+                                        <span class="position">Fundador Diretor Presidente em 2012</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="testimony-wrap py-4">
+                            <div class="icon d-flex align-items-center justify-content-center"><img
+                                    src="../img/icones/aspas.png" alt="x"/></div>
+                            <div class="text">
+                                <p class="mb-4">A EJ representa uma fase de muito amadurecimento, onde cresci, fiz
+                                    laços, pude trabalhar aspectos internos e ainda tirar ideias do papel e aprender
+                                    como funcionava o mercado de trabalho. A LZT Júnior possibilita que o estudante
+                                    entre em contato com a prática, que muitas vezes não é tão explorada no decorrer da
+                                    graduação. É uma experiência que abre portas e agrega muito para a formação do
+                                    profissional em lazer e turismo.
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <div class="user-img" style="background-image: url(../img/depoimentos/livia.png);"></div>
+                                    <div class="pl-3">
+                                        <p class="name">Livia Dal Bello</p>
+                                        <span class="position">Ex Assessora de Gente e Gestão</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="testimony-wrap py-4">
+                            <div class="icon d-flex align-items-center justify-content-center"><img
+                                    src="../img/icones/aspas.png" alt="x"/></div>
+                            <div class="text">
+                                <p class="mb-4">Para mim a LZT Júnior representa desafio, aprendizado e crescimento.
+                                    Esperava vivenciar a parte prática de lazer e turismo, e além disso construí
+                                    amizades, cumpri metas e realizei objetivos, e junto com toda gestão, fizemos
+                                    história na EJ, sempre um grande turbilhão de sentimentos; felicidade, frustração,
+                                    realização, cansaço, entre outros. Mas hoje sinto muito orgulho de ter vivido tudo
+                                    isso e percebo o quanto agregou para a pessoa que sou hoje, tanto pessoal quanto
+                                    profissionalmente
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <div class="user-img" style="background-image: url(../img/depoimentos/leticia.png);"></div>
+                                    <div class="pl-3">
+                                        <p class="name">Letícia Catarina de Jesus Santos</p>
+                                        <span class="position">Ex Assessora de Marketing</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-        </section>
-        <!-- Fim Opiniões -->
+        </div>
+    </div>
+</section>
+<!-- Fim Opiniões -->
 
-        <!-- Seção Movimento EJ -->
-        <section class="ftco-section" style="margin-bottom: 7em;">
-            <div class="container">
-                <div class="row justify-content-center mb-5 pb-5">
-                    <div class="col-md-7 text-center heading-section ftco-animate">
-                        <span class="subheading">O QUE É?</span>
-                        <h2>Movimento Empresa Júnior</h2>
-                    </div>
-                </div>
+<!-- Seção Movimento EJ -->
+<section class="ftco-section" style="margin-bottom: 7em;">
+    <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+                <span class="subheading">O QUE É?</span>
+                <h2>Movimento Empresa Júnior</h2>
+            </div>
+        </div>
 
-                <p class="mb-4 text-center" style="font-size: 18px">
-                    A Empresa Júnior (EJ) é uma associação civil sem fins lucrativos, formada e gerida por alunos do ensino superior e associada a um curso da universidade em que está situada.
-                    O principal objetivo são pelos fins educacionais proporcionando aos graduandos aprendizagem sobre o mercado de trabalho, elaborar projetos entre outros. Uma EJ funciona como uma empresa tradicional (presidência, comunicação e marketing, Gente e gestão etc.), neste caso os cargos são ocupados por universitários.
-                </p>
+        <p class="mb-4 text-center" style="font-size: 18px">
+            A Empresa Júnior (EJ) é uma associação civil sem fins lucrativos, formada e gerida por alunos do ensino
+            superior e associada a um curso da universidade em que está situada.
+            O principal objetivo são pelos fins educacionais proporcionando aos graduandos aprendizagem sobre o mercado
+            de trabalho, elaborar projetos entre outros. Uma EJ funciona como uma empresa tradicional (presidência,
+            comunicação e marketing, Gente e gestão etc.), neste caso os cargos são ocupados por universitários.
+        </p>
 
-                <div class="row justify-content-around align-items-center mej-row">
-                    <div class="d-flex align-self-stretch ftco-animate">
-                        <div class="services">
-                            <a href="https://www.brasiljunior.org.br/">
-                                <div class="icon d-flex align-items-center justify-content-around"><img src="../img/icones/logo-brasil-junior.png" alt="x" /></div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="d-flex align-self-stretch ftco-animate">
-                        <div class="services">
-                            <a href="https://www.facebook.com/NucleoEJSP/">
-                                <div class="icon d-flex align-items-center justify-content-around"><img src="../img/icones/nsp.png" alt="x" /></div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="d-flex align-self-stretch ftco-animate">
-                        <div class="services">
-                            <a href="https://www.facebook.com/fejesp.sp/">
-                                <div class="icon d-flex align-items-center justify-content-around"><img src="../img/icones/fegesp.png" alt="x" /></div>
-                            </a>
-                        </div>
-                    </div>
+        <div class="row justify-content-around align-items-center mej-row">
+            <div class="d-flex align-self-stretch ftco-animate">
+                <div class="services">
+                    <a href="https://www.brasiljunior.org.br/">
+                        <div class="icon d-flex align-items-center justify-content-around"><img
+                                src="../img/icones/logo-brasil-junior.png" alt="x"/></div>
+                    </a>
                 </div>
             </div>
-        </section>
-        <!--Fim Seção Movimento EJ -->
 
-        <!-- Rodapé -->
-        <footer class="ftco-footer ftco-bg-dark ftco-section">
-            <div class="container">
-                <div class="row mb-5">
-                    <!-- Descrição LZT Jr. -->
-                    <div class="col-lg-12">
-                        <div class="ftco-footer-widget mb-4 text-center">
-                            <h2 class="ftco-heading-2">LZT Júnior</h2>
-                            <p>A LZT Júnior é uma associação civil sem fins lucrativos, formada por alunos de graduação do curso de Lazer e Turismo da Escola de Artes, Ciências e Humanidades da Universidade de São Paulo.</p>
-                            <ul class="ftco-footer-social list-unstyled">
-                                <li class="ftco-animate"><a href="https://www.linkedin.com/company/lzt-júnior/"><span class="icon-linkedin"></span></a></li>
-                                <li class="ftco-animate"><a href="https://www.facebook.com/lztjunior/"><span class="icon-facebook"></span></a></li>
-                                <li class="ftco-animate"><a href="https://www.instagram.com/lztjunior/"><span class="icon-instagram"></span></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- Fim Descrição LZT Jr. -->
-
-
-
-                    <!--Contato do Rodapé -->
-
-                    <!--Fim Contato do Rodapé -->
+            <div class="d-flex align-self-stretch ftco-animate">
+                <div class="services">
+                    <a href="https://www.facebook.com/NucleoEJSP/">
+                        <div class="icon d-flex align-items-center justify-content-around"><img
+                                src="../img/icones/nsp.png" alt="x"/></div>
+                    </a>
                 </div>
-
-                <!--Direitos Autorais e Créditos -->
-                <div class="row" style="margin-top: 15px">
-                    <div class="col-md-12 text-center">
-                        <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados | Feito por <a href="http://sintesejr.com.br" target="_blank" style="font-weight: 400;">Síntese Jr.</a></p>
-                    </div>
-                </div>
-                <!-- Fim Direitos Autorais e Créditos -->
             </div>
-        </footer>
-        <!-- Fim Rodapé -->
 
-        <!-- JavaScript Externo -->
-        <!-- JQuery -->
-        <script src="../vendor/jquery/jquery-3.3.1.min.js"></script>
-        <script src="../vendor/jquery/jquery-migrate-3.0.1.min.js"></script>
-        <script src="../vendor/jquery/jquery.easing.1.3.js"></script>
-        <script src="../vendor/jquery/jquery.waypoints.min.js"></script>
-        <script src="../vendor/jquery/jquery.stellar.min.js"></script>
-        <script src="../vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-        <script src="../vendor/jquery/jquery.timepicker.min.js"></script>
+            <div class="d-flex align-self-stretch ftco-animate">
+                <div class="services">
+                    <a href="https://www.facebook.com/fejesp.sp/">
+                        <div class="icon d-flex align-items-center justify-content-around"><img
+                                src="../img/icones/fegesp.png" alt="x"/></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Fim Seção Movimento EJ -->
 
-        <!-- Bootstrap -->
-        <script src="../vendor/bootstrap/bootstrap.min.js"></script>
-        <script src="../vendor/bootstrap/bootstrap-datepicker.js"></script>
+<!-- Rodapé -->
+<footer class="ftco-footer ftco-bg-dark ftco-section">
+    <div class="container">
+        <div class="row mb-5">
+            <!-- Descrição LZT Jr. -->
+            <div class="col-lg-12">
+                <div class="ftco-footer-widget mb-4 text-center">
+                    <h2 class="ftco-heading-2">LZT Júnior</h2>
+                    <p>A LZT Júnior é uma associação civil sem fins lucrativos, formada por alunos de graduação do curso
+                        de Lazer e Turismo da Escola de Artes, Ciências e Humanidades da Universidade de São Paulo.</p>
+                    <ul class="ftco-footer-social list-unstyled">
+                        <li class="ftco-animate"><a href="https://www.linkedin.com/company/lzt-júnior/"><span
+                                class="icon-linkedin"></span></a></li>
+                        <li class="ftco-animate"><a href="https://www.facebook.com/lztjunior/"><span
+                                class="icon-facebook"></span></a></li>
+                        <li class="ftco-animate"><a href="https://www.instagram.com/lztjunior/"><span
+                                class="icon-instagram"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Fim Descrição LZT Jr. -->
 
-        <!-- Owl Carousel -->
-        <script src="../vendor/owl.carousel/owl.carousel.min.js"></script>
 
-        <!-- Aos -->
-        <script src="../vendor/aos/aos.js"></script>
+            <!--Contato do Rodapé -->
 
-        <!-- JavaScript Principal -->
-        <script src="../js/main.js"></script>
-    </body>
+            <!--Fim Contato do Rodapé -->
+        </div>
+
+        <!--Direitos Autorais e Créditos -->
+        <div class="row" style="margin-top: 15px">
+            <div class="col-md-12 text-center">
+                <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                    Todos os direitos reservados | Feito por <a href="http://sintesejr.com.br" target="_blank"
+                                                                style="font-weight: 400;">Síntese Jr.</a></p>
+            </div>
+        </div>
+        <!-- Fim Direitos Autorais e Créditos -->
+    </div>
+</footer>
+<!-- Fim Rodapé -->
+
+<!-- JavaScript Externo -->
+<!-- JQuery -->
+<script src="../vendor/jquery/jquery-3.3.1.min.js"></script>
+<script src="../vendor/jquery/jquery-migrate-3.0.1.min.js"></script>
+<script src="../vendor/jquery/jquery.easing.1.3.js"></script>
+<script src="../vendor/jquery/jquery.waypoints.min.js"></script>
+<script src="../vendor/jquery/jquery.stellar.min.js"></script>
+<script src="../vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="../vendor/jquery/jquery.timepicker.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="../vendor/bootstrap/bootstrap.min.js"></script>
+<script src="../vendor/bootstrap/bootstrap-datepicker.js"></script>
+
+<!-- Owl Carousel -->
+<script src="../vendor/owl.carousel/owl.carousel.min.js"></script>
+
+<!-- Aos -->
+<script src="../vendor/aos/aos.js"></script>
+
+<!-- JavaScript Principal -->
+<script src="../js/main.js"></script>
+</body>
 </html>
