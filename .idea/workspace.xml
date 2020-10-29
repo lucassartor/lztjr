@@ -3,19 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="baa05a1d-bd8b-46ca-afcc-02c4bc411fc7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bandeira.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contato.html" beforeDir="false" afterPath="$PROJECT_DIR$/contato.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/home1.JPG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Bandeira.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/Bandeira.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/case1.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/case1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/case2.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/case2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/case3.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/case3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/case4.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/case4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contato.html" beforeDir="false" afterPath="$PROJECT_DIR$/contato.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/nossa-equipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/sobre-nos/nossa-equipe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/quem-somos.html" beforeDir="false" afterPath="$PROJECT_DIR$/sobre-nos/quem-somos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/servicos.html" beforeDir="false" afterPath="$PROJECT_DIR$/servicos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/case1.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/case1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/case2.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/case2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/case3.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/case3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/case4.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/case4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicos.html" beforeDir="false" afterPath="$PROJECT_DIR$/servicos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sobre-nos/nossa-equipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/sobre-nos/nossa-equipe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sobre-nos/nossa-marca.html" beforeDir="false" afterPath="$PROJECT_DIR$/sobre-nos/nossa-marca.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sobre-nos/quem-somos.html" beforeDir="false" afterPath="$PROJECT_DIR$/sobre-nos/quem-somos.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +24,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -45,23 +44,24 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/racks-1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\site_lztjr\vendor\open-iconic" />
-      <recent name="C:\xampp\htdocs\site_lztjr\vendor\icomoon" />
-      <recent name="C:\xampp\htdocs\site_lztjr\vendor" />
-      <recent name="C:\xampp\htdocs\site_lztjr\vendor\owl.carousel" />
-      <recent name="C:\xampp\htdocs\site_lztjr\vendor\ionicons" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\site_lztjr" />
       <recent name="C:\xampp\htdocs\site_lztjr\portfolio" />
       <recent name="C:\xampp\htdocs\site_lztjr\sobre-nos" />
       <recent name="C:\xampp\htdocs\site_lztjr\img" />
       <recent name="C:\xampp\htdocs\site_lztjr\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\site_lztjr\img\depoimentos" />
+      <recent name="C:\xampp\htdocs\site_lztjr\vendor\open-iconic" />
+      <recent name="C:\xampp\htdocs\site_lztjr\vendor\icomoon" />
+      <recent name="C:\xampp\htdocs\site_lztjr\vendor" />
+      <recent name="C:\xampp\htdocs\site_lztjr\vendor\owl.carousel" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -83,7 +83,29 @@
       <workItem from="1590962091687" duration="2025000" />
       <workItem from="1590975570234" duration="1592000" />
       <workItem from="1591137053621" duration="1010000" />
-      <workItem from="1591988670698" duration="5313000" />
+      <workItem from="1591988670698" duration="5928000" />
+      <workItem from="1592427465019" duration="969000" />
+      <workItem from="1593454245632" duration="4332000" />
+      <workItem from="1593612522729" duration="3592000" />
+      <workItem from="1593630764556" duration="1199000" />
+      <workItem from="1593712468756" duration="1804000" />
+      <workItem from="1593727640458" duration="2945000" />
+      <workItem from="1593900219596" duration="658000" />
+      <workItem from="1593978757503" duration="1753000" />
+      <workItem from="1594150051336" duration="599000" />
+      <workItem from="1595705310120" duration="3175000" />
+      <workItem from="1595867997796" duration="7436000" />
+      <workItem from="1596032777078" duration="3811000" />
+      <workItem from="1596140927942" duration="2543000" />
+      <workItem from="1596492110210" duration="23000" />
+      <workItem from="1598536024073" duration="128000" />
+      <workItem from="1598536168179" duration="7477000" />
+      <workItem from="1598732448950" duration="29000" />
+      <workItem from="1599227820092" duration="9949000" />
+      <workItem from="1602001983937" duration="514000" />
+      <workItem from="1602174898348" duration="3587000" />
+      <workItem from="1603045507086" duration="39000" />
+      <workItem from="1603995107816" duration="11494000" />
     </task>
     <servers />
   </component>
@@ -91,9 +113,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1591991459659">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1603045544195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591991459659" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603045544195" />
+    <state x="563" y="45" key="SettingsEditor" timestamp="1598536223461">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="563" y="45" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598536223461" />
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604007883016">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604007883016" />
+    <state x="623" y="225" key="search.everywhere.popup" timestamp="1604001416735">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604001416735" />
   </component>
 </project>
